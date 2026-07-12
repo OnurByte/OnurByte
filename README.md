@@ -7,60 +7,62 @@ I had a potential.
 
 # OnurByte
 
-selam ben Onur
+Onur.
 
-kod yazıyorum. linuxte yaşıyorum. makinemin içine kimse karışmaz. terminalden çıkmak zoruma gider bazen.
+I write software. I run Linux. The machine is mine and I keep it that way.
 
-ne yaptığımı sorma çok. bi şey lazım olunca yazıyorum işte. bazen plugin bazen cli bazen de saçma sapan bi tool. bitince atıyorum buraya.
-
----
-
-## ne biliyom
-
-php java typescript javascript rust lua. hangisi işe yarıyosa o.
-
-linux · neovim · pocketmine. başka bişey de gerekmez çoğu zaman.
-
-neovim configime bulaşma. o iş bitmiş sayılır. değilse de siktir et yine de benim.
+I am not here to network. I am not here to "collaborate on my personal brand." I build things that work then I put them on github. if they do not work I fix them or I delete them. that is the whole process.
 
 ---
 
-## neyle uğraşıyom
+## stack
 
-- terminal tool ları falan. kısa olsun. çalışsın. gitsin.
-- neovim. keybind ler plugin ler. editorü kendine yontuyosun yani.
-- pocketmine / minecraft bedrock plugin. news prayer times vs. sunucu işleri.
-- web ve ai saçmalıkları. ürün açıklaması yazdıran şey domain arayan şey crawler falan.
-- okuldan kalma java ve eticaret projeleri. silmedim dursun orda.
+| | |
+|:--|:--|
+| **languages** | PHP · Java · TypeScript · JavaScript · Rust · Lua |
+| **environment** | Linux · shell · Neovim |
+| **servers** | PocketMine / Bedrock plugins |
 
----
-
-## bi kaç repo
-
-| ne | neymiş |
-|:---|:-------|
-| [PSYCHOVIM](https://github.com/OnurByte/PSYCHOVIM) | neovim config. lua. geri dönmek zorunda kaldım yine. |
-| [Hakikat](https://github.com/OnurByte/Hakikat) | linuxte kuran dinle. rust. |
-| [AciklamaAI](https://github.com/OnurByte/AciklamaAI) | açıklamayı ai yazsın amk. php. |
-| [DomainFinder](https://github.com/OnurByte/DomainFinder) | domain kovala. typescript. |
-| [newsPM](https://github.com/OnurByte/newsPM) | pocketmine news plugin. php. |
-| [PrayerTimes](https://github.com/OnurByte/PrayerTimes) | minecraft bedrock namaz vakitleri. php. |
-| [Twitter-To-Prototurk](https://github.com/OnurByte/Twitter-To-Prototurk) | tweetleri prototurk e bas. javascript. |
-| [TalhaCenter](https://github.com/OnurByte/TalhaCenter) | okul eticaret projesi. php. |
+I use what fits. I do not collect languages like pokemon cards.
 
 ---
 
-## kafa
+## what I build
+
+- small cli tools. short. sharp. no bullshit.
+- neovim config. if you touch my keymaps I will notice.
+- pocketmine / minecraft bedrock plugins. news feeds. prayer times. whatever the server needs.
+- web and ai side projects. product copy generators. domain hunters. crawlers. social bridges.
+- old java and e-commerce school work. still public. I do not pretend it never happened.
+
+---
+
+## selected work
+
+| project | note |
+|:--------|:-----|
+| [PSYCHOVIM](https://github.com/OnurByte/PSYCHOVIM) | neovim config. lua. I had to come back to it. |
+| [Hakikat](https://github.com/OnurByte/Hakikat) | listen to the Quran on a linux box. rust. |
+| [AciklamaAI](https://github.com/OnurByte/AciklamaAI) | let the model write the damn product descriptions. php. |
+| [DomainFinder](https://github.com/OnurByte/DomainFinder) | find the next domain before someone else does. typescript. |
+| [newsPM](https://github.com/OnurByte/newsPM) | news plugin for pocketmine. php. |
+| [PrayerTimes](https://github.com/OnurByte/PrayerTimes) | prayer times for minecraft bedrock. php. |
+| [Twitter-To-Prototurk](https://github.com/OnurByte/Twitter-To-Prototurk) | port tweets into prototurk. javascript. |
+| [TalhaCenter](https://github.com/OnurByte/TalhaCenter) | school e-commerce project. php. |
+
+---
+
+## how I work
 
 ```
-kendi işime bakarım
-dashboard sevmem terminal yeter
-çok yazmak değil doğru yazmak
-slayt değil çalışan kod
-benim değilse bitmemiş sayılır
+own the machine
+prefer the terminal
+say less write better
+working code beats a pitch deck
+if it is not mine it is not done
 ```
 
-yani o kadar.
+I like things clean. I like things precise. I do not like noise.
 
 ---
 
@@ -79,7 +81,7 @@ yani o kadar.
 
 <div align="center">
 
-potential diye bi şey varmış diyorlar. bilmiyom.
+potential is not a personality.
 
 **[github.com/OnurByte](https://github.com/OnurByte)** · linux · nvim
 
