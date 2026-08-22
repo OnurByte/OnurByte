@@ -61,6 +61,8 @@ languages are tools, not personality traits.
 
 ![contribution activity graph](https://github-readme-activity-graph.vercel.app/graph?username=OnurByte&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=c9d1d9&area=true&area_color=58a6ff)
 
+![streak stats](https://streak-stats.demolab.com?user=OnurByte&theme=tokyonight&hide_border=true&background=0d1117&ring=58a6ff&fire=58a6ff&currStreakLabel=8b949e)
+
 <!-- KALICI COZUM: kendi github-readme-stats deploy'unu kurunca asagiyi ac ve
      YOUR_INSTANCE yerine Vercel domain'ini yaz:
 [![stats](https://YOUR_INSTANCE.vercel.app/api?username=OnurByte&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=c9d1d9&icon_color=58a6ff&text_color=8b949e)](https://github.com/OnurByte)
