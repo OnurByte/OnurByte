@@ -26,6 +26,7 @@ issues and PRs are open. bring bugs, cursed ideas, or receipts.
 | [Ispatla](https://github.com/OnurByte/Ispatla) | xpatla, the foss cut. an x client that answers to no ads team. typescript. |
 | [TurkishBankMCP](https://github.com/OnurByte/TurkishBankMCP) | mcp server so agents can talk to turkish banks. what could go wrong. typescript. |
 | [vesper](https://github.com/OnurByte/vesper) | my nix config. declarative, reproducible, slightly feral. |
+| [PSYCHOVIM](https://github.com/OnurByte/PSYCHOVIM) | neovim config. lua. my daily driver, alive and updated. touch the keymaps, see what happens. |
 
 ## the archive
 
@@ -33,7 +34,6 @@ still works. i don't delete working code.
 
 | project | the deal |
 | --- | --- |
-| [PSYCHOVIM](https://github.com/OnurByte/PSYCHOVIM) | neovim config. lua. opinionated like its owner. touch the keymaps, see what happens. |
 | [Hakikat](https://github.com/OnurByte/Hakikat) | quran player for linux boxes. rust. quiet code for a quiet purpose. |
 | [AciklamaAI](https://github.com/OnurByte/AciklamaAI) | product descriptions written by the model so you don't have to. php. |
 | [DomainFinder](https://github.com/OnurByte/DomainFinder) | finds the next domain before the squatter bots do. typescript. |
