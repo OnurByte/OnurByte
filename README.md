@@ -1,88 +1,77 @@
-```
+<pre align="center">
 $ whoami
-OnurByte
-$ cat ~/.motd
-I had a potential.
-```
+<span>> onur — software architect · sysadmin · professional keyboard abuser</span>
+</pre>
 
-# OnurByte
+# Hey, I'm Onur <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">
 
-Onur.
+I architect software, keep servers alive, and live inside a terminal.
+By day I make infrastructure behave; by night I convince Rust to compile
+and PHP to stay classy.
 
-I write software. I run Linux. The machine is mine and I keep it that way.
-
-I am not here to network. I am not here to "collaborate on my personal brand." I build things that work then I put them on github. if they do not work I fix them or I delete them. that is the whole process.
-
----
-
-## stack
-
-| | |
-|:--|:--|
-| **languages** | PHP · Java · TypeScript · JavaScript · Rust · Lua |
-| **environment** | Linux · shell · Neovim |
-| **servers** | PocketMine / Bedrock plugins |
-
-I use what fits. I do not collect languages like pokemon cards.
+I build things that work, then set them loose on GitHub. If they break,
+I fix them — usually at 2 AM, usually voluntarily. Around here, issues
+and PRs are welcome: bring me bugs, wild ideas, or just say hi. I don't bite,
+my keybindings might.
 
 ---
 
-## what I build
+## What I'm into
 
-- small cli tools. short. sharp. no bullshit.
-- neovim config. if you touch my keymaps I will notice.
-- pocketmine / minecraft bedrock plugins. news feeds. prayer times. whatever the server needs.
-- web and ai side projects. product copy generators. domain hunters. crawlers. social bridges.
-- old java and e-commerce school work. still public. I do not pretend it never happened.
+- 🔧 **Backend & tooling** — PHP, Rust, TypeScript. Small CLI tools that do one thing and refuse to apologize for it.
+- 🧩 **PocketMine / Minecraft Bedrock plugins** — news feeds, prayer times, whatever the server needs at 3 AM.
+- 📟 **Neovim as a lifestyle** — [PSYCHOVIM](https://github.com/OnurByte/PSYCHOVIM) is my config. Touch my keymaps and I *will* notice.
+- 🤖 **AI side quests** — product description generators, domain hunters, crawlers, social bridges.
+- 🐘 **Old Java & e-commerce school work** — still public. We all start somewhere, and pretending otherwise builds nothing.
 
----
+## Stack
 
-## selected work
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=php,rust,ts,js,lua,java,linux,bash,neovim,docker&perline=10" alt="stack" />
+</a>
 
-| project | note |
-|:--------|:-----|
-| [PSYCHOVIM](https://github.com/OnurByte/PSYCHOVIM) | neovim config. lua. I had to come back to it. |
-| [Hakikat](https://github.com/OnurByte/Hakikat) | listen to the Quran on a linux box. rust. |
-| [AciklamaAI](https://github.com/OnurByte/AciklamaAI) | let the model write the damn product descriptions. php. |
-| [DomainFinder](https://github.com/OnurByte/DomainFinder) | find the next domain before someone else does. typescript. |
-| [newsPM](https://github.com/OnurByte/newsPM) | news plugin for pocketmine. php. |
-| [PrayerTimes](https://github.com/OnurByte/PrayerTimes) | prayer times for minecraft bedrock. php. |
-| [Twitter-To-Prototurk](https://github.com/OnurByte/Twitter-To-Prototurk) | port tweets into prototurk. javascript. |
-| [TalhaCenter](https://github.com/OnurByte/TalhaCenter) | school e-commerce project. php. |
+I use whatever fits the job — languages are tools, not trading cards.
 
 ---
 
-## how I work
+## Selected work
 
-```
-own the machine
-prefer the terminal
-say less write better
-working code beats a pitch deck
-if it is not mine it is not done
-```
-
-I like things clean. I like things precise. I do not like noise.
+| Project | The deal |
+| --- | --- |
+| [PSYCHOVIM](https://github.com/OnurByte/PSYCHOVIM) | My Neovim config. Lua. Opinionated, like its owner. |
+| [Hakikat](https://github.com/OnurByte/Hakikat) | Listen to the Quran on a Linux box. Rust. |
+| [AciklamaAI](https://github.com/OnurByte/AciklamaAI) | Let the model write your product descriptions. PHP. |
+| [DomainFinder](https://github.com/OnurByte/DomainFinder) | Find the next domain before the squatters do. TypeScript. |
+| [newsPM](https://github.com/OnurByte/newsPM) | News feed plugin for PocketMine servers. PHP. |
+| [PrayerTimes](https://github.com/OnurByte/PrayerTimes) | Prayer times in Minecraft Bedrock. Yes, really. PHP. |
+| [Twitter-To-Prototurk](https://github.com/OnurByte/Twitter-To-Prototurk) | Bridge tweets into Prototürk. JavaScript. |
+| [TalhaCenter](https://github.com/OnurByte/TalhaCenter) | School e-commerce project. Character development. PHP. |
 
 ---
 
-## github
+## Numbers go brrr
 
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=OnurByte&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=c9d1d9&icon_color=58a6ff&text_color=8b949e" height="140" alt="stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=OnurByte&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=c9d1d9&text_color=8b949e" height="140" alt="langs" />
-</p>
+<!-- FIX: eski github-readme-stats.vercel.app linkleri paylasimli instanceda rate-limit yedigi icin
+     kaldirildi. Asagidaki ikisi bugun calisan servisler (test edildi). -->
 
-<p align="left">
-  <img src="https://streak-stats.demolab.com?user=OnurByte&theme=tokyonight&hide_border=true&background=0d1117&ring=58a6ff&fire=58a6ff&currStreakLabel=8b949e" alt="streak" />
-</p>
+![Onur's contribution calendar](https://ghchart.rshah.org/58a6ff/OnurByte)
+
+![Onur's contribution activity graph](https://github-readme-activity-graph.vercel.app/graph?username=OnurByte&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=c9d1d9&area=true&area_color=58a6ff)
+
+<!-- KALICI COZUM: kendi github-readme-stats deploy'unu kurunca asagiyi ac ve
+     YOUR_INSTANCE yerine Vercel domain'ini yaz:
+[![stats](https://YOUR_INSTANCE.vercel.app/api?username=OnurByte&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=c9d1d9&icon_color=58a6ff&text_color=8b949e)](https://github.com/OnurByte)
+[![langs](https://YOUR_INSTANCE.vercel.app/api/top-langs/?username=OnurByte&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=c9d1d9&text_color=8b949e)](https://github.com/OnurByte)
+-->
 
 ---
 
 <div align="center">
 
-potential is not a personality.
+Potential is cheap. I ship. ⚡
 
-**[github.com/OnurByte](https://github.com/OnurByte)** · linux · nvim
+**Got something broken, weird, or ambitious? Open an issue — worst case we both learn something.**
+
+[github.com/OnurByte](https://github.com/OnurByte) · linux · nvim · coffee-driven
 
 </div>
