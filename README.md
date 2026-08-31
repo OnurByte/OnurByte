@@ -18,14 +18,18 @@ issues and PRs are open. bring bugs, cursed ideas, or receipts.
 
 ---
 
-## currently building
+## main projects
+
+| project | the deal |
+| --- | --- |
+| [Ispatla](https://github.com/OnurByte/Ispatla) | turns live X signals into account-specific drafts, with evidence, safety gates, and publication confirmation in one control plane. typescript. |
+| [TurkishBankMCP](https://github.com/OnurByte/TurkishBankMCP) | secure, read-only Garanti BBVA API Store MCP access for AI agents. OAuth 2.0, token lifecycle, no money-moving tools. typescript. |
+
+## other projects
 
 | project | the deal |
 | --- | --- |
 | [LiquidGlassForLinux](https://github.com/OnurByte/LiquidGlassForLinux) | apple has liquid glass. linux has compositors and spite. rust. |
-| [Ispatla](https://github.com/OnurByte/Ispatla) | xpatla, the foss cut. an x client that answers to no ads team. typescript. |
-| [TurkishBankMCP](https://github.com/OnurByte/TurkishBankMCP) | mcp server so agents can talk to turkish banks. what could go wrong. typescript. |
-| [vesper](https://github.com/OnurByte/vesper) | my nix config. declarative, reproducible, slightly feral. |
 | [PSYCHOVIM](https://github.com/OnurByte/PSYCHOVIM) | neovim config. lua. my daily driver, alive and updated. touch the keymaps, see what happens. |
 
 ## the archive
