@@ -24,6 +24,7 @@ issues and PRs are open. bring bugs, cursed ideas, or receipts.
 | --- | --- |
 | [Ispatla](https://github.com/OnurByte/Ispatla) | turns live X signals into account-specific drafts, with evidence, safety gates, and publication confirmation in one control plane. typescript. |
 | [TurkishBankMCP](https://github.com/OnurByte/TurkishBankMCP) | secure, read-only Garanti BBVA API Store MCP access for AI agents. OAuth 2.0, token lifecycle, no money-moving tools. typescript. |
+| [NSosyal-use](https://github.com/OnurByte/NSosyal-use) | NSosyal CLI and MCP: persistent Chromium sessions, account-aware reads, publishing, engagement, and an explicit action queue. rust. |
 
 ## other projects
 
