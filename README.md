@@ -1,15 +1,10 @@
-<pre align="center">
-$ whoami
-<span>> onur — software architect · sysadmin · professionally unwell about computers</span>
-</pre>
-
 # onur
 
 software architect & sysadmin. i keep servers alive and my sleep schedule dead.
 
 i build things because they don't exist yet and that bothers me. apple won't give linux liquid glass? fine, i'll take it. if something annoys me twice, it becomes a repo.
 
-i want the person using a system to keep control: inspect the code, run it locally where possible, and grant permissions on purpose. that's what i take from [eric hughes' cypherpunk manifesto](https://cypherpunks.to/).
+the machine should answer to the person running it. i like readable code, local tools, and permissions that are clear before anything changes.
 
 i run nixos. my config is declarative and so are my opinions.
 
