@@ -7,81 +7,52 @@ $ whoami
 
 software architect & sysadmin. i keep servers alive and my sleep schedule dead.
 
-i build things because they don't exist yet and that bothers me.
-apple won't give linux liquid glass? fine, i'll take it.
-turkish banks have no AI bridge? fine, now they do.
-if something annoys me twice, it becomes a repo.
+i build things because they don't exist yet and that bothers me. apple won't give linux liquid glass? fine, i'll take it. if something annoys me twice, it becomes a repo.
 
-i run nixos now. my config is declarative and so are my opinions.
+I care about user control: software you can inspect, run locally, and authorize deliberately. That's the practical thread I take from [Eric Hughes' Cypherpunk Manifesto](https://cypherpunks.to/).
 
-issues and PRs are open. bring bugs, cursed ideas, or receipts.
+i run nixos. my config is declarative and so are my opinions.
 
 ---
 
-## main projects
+## built lately
 
-| project | the deal |
+| project | what it does |
 | --- | --- |
-| [Ispatla](https://github.com/OnurByte/Ispatla) | turns live X signals into account-specific drafts, with evidence, safety gates, and publication confirmation in one control plane. typescript. |
-| [TurkishBankMCP](https://github.com/OnurByte/TurkishBankMCP) | secure, read-only Garanti BBVA API Store MCP access for AI agents. OAuth 2.0, token lifecycle, no money-moving tools. typescript. |
-| [OmaLecoo](https://github.com/OnurByte/OmaLecoo) | local GK301 lighting control for Omarchy. Open source, no runtime network calls, user-run controls; setup asks before installing the udev rule. Rust + Quickshell. |
+| [Ispatla](https://github.com/OnurByte/Ispatla) | turns live X signals into account-specific drafts, with evidence, safety gates, and publication confirmation. typescript. |
+| [TurkishBankMCP](https://github.com/OnurByte/TurkishBankMCP) | read-only Garanti BBVA API access for AI tools. OAuth 2.0; no money-moving calls. typescript. |
+| [OmaLecoo](https://github.com/OnurByte/OmaLecoo) | local GK301 lighting control for Omarchy. no runtime network calls; setup asks before installing the udev rule. rust + quickshell. |
 
-## other projects
+## also on the bench
 
-| project | the deal |
+| project | what it does |
 | --- | --- |
-| [LiquidGlassForLinux](https://github.com/OnurByte/LiquidGlassForLinux) | apple has liquid glass. linux has compositors and spite. rust. |
-| [PSYCHOVIM](https://github.com/OnurByte/PSYCHOVIM) | neovim config. lua. my daily driver, alive and updated. touch the keymaps, see what happens. |
+| [LiquidGlassForLinux](https://github.com/OnurByte/LiquidGlassForLinux) | liquid glass for linux desktops. because apparently i wanted to write a compositor effect. rust. |
+| [PSYCHOVIM](https://github.com/OnurByte/PSYCHOVIM) | my neovim setup. lua. daily driver; keymaps are fair game. |
 
-## the archive
+<details>
+<summary>older work</summary>
 
-still works. i don't delete working code.
-
-| project | the deal |
+| project | what it does |
 | --- | --- |
-| [Hakikat](https://github.com/OnurByte/Hakikat) | quran player for linux boxes. rust. quiet code for a quiet purpose. |
-| [AciklamaAI](https://github.com/OnurByte/AciklamaAI) | product descriptions written by the model so you don't have to. php. |
-| [DomainFinder](https://github.com/OnurByte/DomainFinder) | finds the next domain before the squatter bots do. typescript. |
+| [Hakikat](https://github.com/OnurByte/Hakikat) | quran player for linux. rust. |
+| [AciklamaAI](https://github.com/OnurByte/AciklamaAI) | product descriptions written by a model. php. |
+| [DomainFinder](https://github.com/OnurByte/DomainFinder) | finds available domains before squatters do. typescript. |
 | [newsPM](https://github.com/OnurByte/newsPM) | news feed plugin for pocketmine servers. php. |
-| [PrayerTimes](https://github.com/OnurByte/PrayerTimes) | prayer times in minecraft bedrock. yes, really. php. |
+| [PrayerTimes](https://github.com/OnurByte/PrayerTimes) | prayer times in minecraft bedrock. php. |
 | [Twitter-To-Prototurk](https://github.com/OnurByte/Twitter-To-Prototurk) | tweets → prototürk bridge. javascript. |
 | [TalhaCenter](https://github.com/OnurByte/TalhaCenter) | school e-commerce project. character development. php. |
 
-## stack
+</details>
 
-<a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=php,rust,ts,js,lua,nixos,linux,bash,neovim,docker&perline=10" alt="stack" />
-</a>
+## tools
+
+rust · typescript · php · lua · nixos · linux · bash · neovim · docker
 
 languages are tools, not personality traits.
 
 ---
 
-## numbers go brrr
-
-<!-- FIX: eski github-readme-stats.vercel.app linkleri paylasimli instanceda rate-limit yedigi icin
-     kaldirildi. Asagidaki ikisi calisan servisler (test edildi). -->
-
-![contribution calendar](https://ghchart.rshah.org/58a6ff/OnurByte)
-
-![contribution activity graph](https://github-readme-activity-graph.vercel.app/graph?username=OnurByte&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=c9d1d9&area=true&area_color=58a6ff)
-
-![streak stats](https://streak-stats.demolab.com?user=OnurByte&theme=tokyonight&hide_border=true&background=0d1117&ring=58a6ff&fire=58a6ff&currStreakLabel=8b949e)
-
-<!-- KALICI COZUM: kendi github-readme-stats deploy'unu kurunca asagidaki ac ve
-     YOUR_INSTANCE yerine Vercel domain'ini yaz:
-[![stats](https://YOUR_INSTANCE.vercel.app/api?username=OnurByte&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=c9d1d9&icon_color=58a6ff&text_color=8b949e)](https://github.com/OnurByte)
-[![langs](https://YOUR_INSTANCE.vercel.app/api/top-langs/?username=OnurByte&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=c9d1d9&text_color=8b949e)](https://github.com/OnurByte)
--->
-
----
-
-<div align="center">
-
-potential is cheap. i ship at 3am.
-
-**got something broken, weird or ambitious? open an issue. worst case we both learn something.**
+issues and PRs are open. bring bugs, cursed ideas, or receipts.
 
 [github.com/OnurByte](https://github.com/OnurByte) · nixos · nvim
-
-</div>
