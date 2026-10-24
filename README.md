@@ -53,6 +53,18 @@ languages are tools, not personality traits.
 
 ---
 
+## github history
+
+member since **2019-06-17**.
+
+![Contribution calendar](https://ghchart.rshah.org/58a6ff/OnurByte)
+
+![Contribution activity graph](https://github-readme-activity-graph.vercel.app/graph?username=OnurByte&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=c9d1d9&area=true&area_color=58a6ff)
+
+![Contribution streak](https://streak-stats.demolab.com?user=OnurByte&theme=tokyonight&hide_border=true&background=0d1117&ring=58a6ff&fire=58a6ff&currStreakLabel=8b949e)
+
+---
+
 issues and PRs are open. bring bugs, cursed ideas, or receipts.
 
 [github.com/OnurByte](https://github.com/OnurByte) · nixos · nvim
