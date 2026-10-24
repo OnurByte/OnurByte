@@ -9,13 +9,13 @@ software architect & sysadmin. i keep servers alive and my sleep schedule dead.
 
 i build things because they don't exist yet and that bothers me. apple won't give linux liquid glass? fine, i'll take it. if something annoys me twice, it becomes a repo.
 
-I care about user control: software you can inspect, run locally, and authorize deliberately. That's the practical thread I take from [Eric Hughes' Cypherpunk Manifesto](https://cypherpunks.to/).
+i want the person using a system to keep control: inspect the code, run it locally where possible, and grant permissions on purpose. that's what i take from [eric hughes' cypherpunk manifesto](https://cypherpunks.to/).
 
 i run nixos. my config is declarative and so are my opinions.
 
 ---
 
-## built lately
+## selected projects
 
 | project | what it does |
 | --- | --- |
@@ -23,12 +23,12 @@ i run nixos. my config is declarative and so are my opinions.
 | [TurkishBankMCP](https://github.com/OnurByte/TurkishBankMCP) | read-only Garanti BBVA API access for AI tools. OAuth 2.0; no money-moving calls. typescript. |
 | [OmaLecoo](https://github.com/OnurByte/OmaLecoo) | local GK301 lighting control for Omarchy. no runtime network calls; setup asks before installing the udev rule. rust + quickshell. |
 
-## also on the bench
+## more projects
 
 | project | what it does |
 | --- | --- |
-| [LiquidGlassForLinux](https://github.com/OnurByte/LiquidGlassForLinux) | liquid glass for linux desktops. because apparently i wanted to write a compositor effect. rust. |
-| [PSYCHOVIM](https://github.com/OnurByte/PSYCHOVIM) | my neovim setup. lua. daily driver; keymaps are fair game. |
+| [LiquidGlassForLinux](https://github.com/OnurByte/LiquidGlassForLinux) | native Liquid Glass-style app icons for Linux, rendered locally with WGPU. Rust, GTK4 + libadwaita. |
+| [PychoVIM](https://github.com/OnurByte/PSYCHOVIM) | an opinionated terminal editor powered by Neovim. American Psycho dress code; fewer stupid editor defaults. |
 
 <details>
 <summary>older work</summary>
