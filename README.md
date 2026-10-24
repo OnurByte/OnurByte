@@ -24,7 +24,7 @@ issues and PRs are open. bring bugs, cursed ideas, or receipts.
 | --- | --- |
 | [Ispatla](https://github.com/OnurByte/Ispatla) | turns live X signals into account-specific drafts, with evidence, safety gates, and publication confirmation in one control plane. typescript. |
 | [TurkishBankMCP](https://github.com/OnurByte/TurkishBankMCP) | secure, read-only Garanti BBVA API Store MCP access for AI agents. OAuth 2.0, token lifecycle, no money-moving tools. typescript. |
-| [NSosyal-use](https://github.com/OnurByte/NSosyal-use) | NSosyal CLI and MCP: persistent Chromium sessions, account-aware reads, publishing, engagement, and an explicit action queue. rust. |
+| [Omalecooyu](https://github.com/OnurByte/NSosyal-use) | terminal + MCP client. persistent browser sessions, account-aware reads, and an explicit queue before anything gets posted. rust. |
 
 ## other projects
 
@@ -68,7 +68,7 @@ languages are tools, not personality traits.
 
 ![streak stats](https://streak-stats.demolab.com?user=OnurByte&theme=tokyonight&hide_border=true&background=0d1117&ring=58a6ff&fire=58a6ff&currStreakLabel=8b949e)
 
-<!-- KALICI COZUM: kendi github-readme-stats deploy'unu kurunca asagiyi ac ve
+<!-- KALICI COZUM: kendi github-readme-stats deploy'unu kurunca asagidaki ac ve
      YOUR_INSTANCE yerine Vercel domain'ini yaz:
 [![stats](https://YOUR_INSTANCE.vercel.app/api?username=OnurByte&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=c9d1d9&icon_color=58a6ff&text_color=8b949e)](https://github.com/OnurByte)
 [![langs](https://YOUR_INSTANCE.vercel.app/api/top-langs/?username=OnurByte&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=c9d1d9&text_color=8b949e)](https://github.com/OnurByte)
