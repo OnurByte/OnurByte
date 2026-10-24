@@ -24,7 +24,7 @@ issues and PRs are open. bring bugs, cursed ideas, or receipts.
 | --- | --- |
 | [Ispatla](https://github.com/OnurByte/Ispatla) | turns live X signals into account-specific drafts, with evidence, safety gates, and publication confirmation in one control plane. typescript. |
 | [TurkishBankMCP](https://github.com/OnurByte/TurkishBankMCP) | secure, read-only Garanti BBVA API Store MCP access for AI agents. OAuth 2.0, token lifecycle, no money-moving tools. typescript. |
-| [Omalecooyu](https://github.com/OnurByte/NSosyal-use) | terminal + MCP client. persistent browser sessions, account-aware reads, and an explicit queue before anything gets posted. rust. |
+| [OmaLecoo](https://github.com/OnurByte/OmaLecoo) | local GK301 lighting control for Omarchy. Open source, no runtime network calls, user-run controls; setup asks before installing the udev rule. Rust + Quickshell. |
 
 ## other projects
 
