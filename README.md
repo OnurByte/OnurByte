@@ -14,6 +14,8 @@ i run nixos. my config is declarative and so are my opinions.
 
 | project | what it does |
 | --- | --- |
+| [onur.af](https://github.com/OnurByte/onur.af) | personal portfolio with signed writing, portable proofs, and live activity. astro + typescript + stylex. |
+| [LimitlessX](https://github.com/OnurByte/LimitlessX) | reads region-restricted public X profiles and posts directly on X. no VPN or proxy setup. rust + typescript. |
 | [Ispatla](https://github.com/OnurByte/Ispatla) | turns live X signals into account-specific drafts, with evidence, safety gates, and publication confirmation. typescript. |
 | [TurkishBankMCP](https://github.com/OnurByte/TurkishBankMCP) | read-only Garanti BBVA API access for AI tools. OAuth 2.0; no money-moving calls. typescript. |
 | [OmaLecoo](https://github.com/OnurByte/OmaLecoo) | local GK301 lighting control for Omarchy. no runtime network calls; setup asks before installing the udev rule. rust + quickshell. |
