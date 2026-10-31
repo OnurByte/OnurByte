@@ -32,7 +32,7 @@ things you can actually use. open a project for its code, setup, and details.
   <td><strong><a href="https://github.com/OnurByte/OmaMonero">OmaMonero</a></strong><br>track Monero prices and node health in Omarchy's top bar, and create receive QR codes. no wallet keys.</td>
 </tr>
 <tr>
-  <td align="center" width="106"><a href="https://github.com/OnurByte/OmaLecoo"><img src="https://raw.githubusercontent.com/OnurByte/OmaLecoo/main/docs/assets/omalecoo-banner.svg" alt="OmaLecoo keyboard artwork" width="94"></a></td>
+  <td align="center" width="106"><a href="https://github.com/OnurByte/OmaLecoo"><img src="https://raw.githubusercontent.com/OnurByte/OmaLecoo/main/icon.svg" alt="OmaLecoo mark" width="52"></a></td>
   <td><strong><a href="https://github.com/OnurByte/OmaLecoo">OmaLecoo</a></strong><br>change a Lecoo GK301 keyboard's RGB lighting from the Omarchy Linux bar. effects, macros, offline controls.</td>
 </tr>
 <tr>
