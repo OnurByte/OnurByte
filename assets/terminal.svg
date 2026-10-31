@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 72 72" role="img" aria-labelledby="t">
+<title id="t">Terminal editor</title>
+<rect width="72" height="72" rx="16" fill="#141418"/>
+<rect x="10" y="13" width="52" height="46" rx="8" fill="#24262C" stroke="#4D4F56" stroke-width="2"/>
+<path d="m22 28 10 8-10 8" fill="none" stroke="#E7E7E9" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+<path d="M37 45h13" fill="none" stroke="#D67C85" stroke-linecap="round" stroke-width="4"/>
+</svg>
