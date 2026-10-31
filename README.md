@@ -1,6 +1,6 @@
 # onur
 
-software architect & sysadmin. i keep servers alive and my sleep schedule dead.
+i build software and keep servers alive. my sleep schedule didn't make it.
 
 i build things because they don't exist yet and that bothers me. apple won't give linux liquid glass? fine, i'll take it. if something annoys me twice, it becomes a repo.
 
@@ -12,33 +12,58 @@ i run nixos. my config is declarative and so are my opinions.
 
 ## selected projects
 
-| project | what it does |
-| --- | --- |
-| [onur.af](https://github.com/OnurByte/onur.af) | personal portfolio with signed writing, portable proofs, and live activity. astro + typescript + stylex. |
-| [LimitlessX](https://github.com/OnurByte/LimitlessX) | reads region-restricted public X profiles and posts directly on X. no VPN or proxy setup. rust + typescript. |
-| [Ispatla](https://github.com/OnurByte/Ispatla) | turns live X signals into account-specific drafts, with evidence, safety gates, and publication confirmation. typescript. |
-| [TurkishBankMCP](https://github.com/OnurByte/TurkishBankMCP) | read-only Garanti BBVA API access for AI tools. OAuth 2.0; no money-moving calls. typescript. |
-| [OmaLecoo](https://github.com/OnurByte/OmaLecoo) | local GK301 lighting control for Omarchy. no runtime network calls; setup asks before installing the udev rule. rust + quickshell. |
+things you can actually use. open a project for its code, setup, and details.
+
+<table>
+<tr>
+  <td align="center" width="106"><a href="https://github.com/OnurByte/onur.af"><img src="https://raw.githubusercontent.com/OnurByte/onur.af/main/public/brand/icon.png" alt="Onur mark" width="50"></a></td>
+  <td><strong><a href="https://github.com/OnurByte/onur.af">onur.af</a></strong><br>my personal site for projects and writing, with signatures so you can verify what i actually published.</td>
+</tr>
+<tr>
+  <td align="center" width="106"><a href="https://github.com/OnurByte/LimitlessX"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/OnurByte/LimitlessX/main/docs/brand/mark-dark.svg"><img src="https://raw.githubusercontent.com/OnurByte/LimitlessX/main/docs/brand/mark-light.svg" alt="LimitlessX mark" width="54"></picture></a></td>
+  <td><strong><a href="https://github.com/OnurByte/LimitlessX">LimitlessX</a></strong><br>browser extension for viewing region-restricted public 𝕏 profiles and posts. no VPN setup.</td>
+</tr>
+<tr>
+  <td align="center" width="106"><a href="https://github.com/OnurByte/ispatla.tr"><img src="https://raw.githubusercontent.com/OnurByte/ispatla.tr/main/public/brand/ispatla-favicon.png" alt="ispatla.tr mark" width="50"></a></td>
+  <td><strong><a href="https://github.com/OnurByte/ispatla.tr">ispatla.tr</a></strong><br>find relevant 𝕏 conversations, see why they fit each account, and write replies in your own voice.</td>
+</tr>
+<tr>
+  <td align="center" width="106"><a href="https://github.com/OnurByte/OmaMonero"><img src="https://raw.githubusercontent.com/OnurByte/OmaMonero/main/qml/v0_3_6/assets/OmaMonero-logo.svg" alt="OmaMonero mark" width="52"></a></td>
+  <td><strong><a href="https://github.com/OnurByte/OmaMonero">OmaMonero</a></strong><br>track Monero prices and node health in Omarchy's top bar, and create receive QR codes. no wallet keys.</td>
+</tr>
+<tr>
+  <td align="center" width="106"><a href="https://github.com/OnurByte/OmaLecoo"><img src="https://raw.githubusercontent.com/OnurByte/OmaLecoo/main/docs/assets/omalecoo-banner.svg" alt="OmaLecoo keyboard artwork" width="94"></a></td>
+  <td><strong><a href="https://github.com/OnurByte/OmaLecoo">OmaLecoo</a></strong><br>change a Lecoo GK301 keyboard's RGB lighting from the Omarchy Linux bar. effects, macros, offline controls.</td>
+</tr>
+<tr>
+  <td align="center" width="106"><a href="https://github.com/OnurByte/TurkishBankMCP"><img src="assets/banking.svg" alt="Read-only banking pictogram" width="50"></a></td>
+  <td><strong><a href="https://github.com/OnurByte/TurkishBankMCP">TurkishBankMCP</a></strong><br>lets AI tools read Garanti BBVA account and transaction data with approved API access. no transfers or payments.</td>
+</tr>
+</table>
 
 ## more projects
 
-| project | what it does |
-| --- | --- |
-| [LiquidGlassForLinux](https://github.com/OnurByte/LiquidGlassForLinux) | native Liquid Glass-style app icons for Linux, rendered locally with WGPU. Rust, GTK4 + libadwaita. |
-| [PychoVIM](https://github.com/OnurByte/PSYCHOVIM) | an opinionated terminal editor powered by Neovim. American Psycho dress code; fewer stupid editor defaults. |
+<table>
+<tr>
+  <td align="center" width="106"><a href="https://github.com/OnurByte/LiquidGlassForLinux"><img src="https://raw.githubusercontent.com/OnurByte/LiquidGlassForLinux/main/assets/liquid-glass-icon.svg" alt="Liquid Glass layered cube" width="52"></a></td>
+  <td><strong><a href="https://github.com/OnurByte/LiquidGlassForLinux">LiquidGlassForLinux</a></strong><br>turn ordinary Linux app icons into layered, glass-like icons. change their look locally.</td>
+</tr>
+<tr>
+  <td align="center" width="106"><a href="https://github.com/OnurByte/PSYCHOVIM"><img src="assets/terminal.svg" alt="Terminal editor pictogram" width="50"></a></td>
+  <td><strong><a href="https://github.com/OnurByte/PSYCHOVIM">PychoVIM</a></strong><br>a ready-to-use terminal text editor built on Neovim, with extensions, themes and automatic updates.</td>
+</tr>
+</table>
 
 <details>
 <summary>older work</summary>
 
-| project | what it does |
-| --- | --- |
-| [Hakikat](https://github.com/OnurByte/Hakikat) | quran player for linux. rust. |
-| [AciklamaAI](https://github.com/OnurByte/AciklamaAI) | product descriptions written by a model. php. |
-| [DomainFinder](https://github.com/OnurByte/DomainFinder) | finds available domains before squatters do. typescript. |
-| [newsPM](https://github.com/OnurByte/newsPM) | news feed plugin for pocketmine servers. php. |
-| [PrayerTimes](https://github.com/OnurByte/PrayerTimes) | prayer times in minecraft bedrock. php. |
-| [Twitter-To-Prototurk](https://github.com/OnurByte/Twitter-To-Prototurk) | tweets → prototürk bridge. javascript. |
-| [TalhaCenter](https://github.com/OnurByte/TalhaCenter) | school e-commerce project. character development. php. |
+- **[Hakikat](https://github.com/OnurByte/Hakikat)** ⁜ quran audio player for Linux.
+- **[AciklamaAI](https://github.com/OnurByte/AciklamaAI)** ⁜ AI-assisted product descriptions.
+- **[DomainFinder](https://github.com/OnurByte/DomainFinder)** ⁜ checks which domain names are available.
+- **[newsPM](https://github.com/OnurByte/newsPM)** ⁜ news-feed plugin for PocketMine servers.
+- **[PrayerTimes](https://github.com/OnurByte/PrayerTimes)** ⁜ prayer times inside Minecraft Bedrock.
+- **[Twitter-To-Prototurk](https://github.com/OnurByte/Twitter-To-Prototurk)** ⁜ sends tweets to the Prototürk community.
+- **[TalhaCenter](https://github.com/OnurByte/TalhaCenter)** ⁜ school e-commerce project. character development.
 
 </details>
 
