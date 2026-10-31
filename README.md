@@ -36,7 +36,7 @@ things you can actually use. open a project for its code, setup, and details.
   <td><strong><a href="https://github.com/OnurByte/OmaLecoo">OmaLecoo</a></strong><br>change a Lecoo GK301 keyboard's RGB lighting from the Omarchy Linux bar. effects, macros, offline controls.</td>
 </tr>
 <tr>
-  <td align="center" width="106"><a href="https://github.com/OnurByte/TurkishBankMCP"><img src="assets/banking.svg" alt="Read-only banking pictogram" width="50"></a></td>
+  <td align="center" width="106"><a href="https://github.com/OnurByte/TurkishBankMCP"><img src="https://raw.githubusercontent.com/OnurByte/TurkishBankMCP/main/icon.svg" alt="TurkishBankMCP symbol" width="50"></a></td>
   <td><strong><a href="https://github.com/OnurByte/TurkishBankMCP">TurkishBankMCP</a></strong><br>lets AI tools read Garanti BBVA account and transaction data with approved API access. no transfers or payments.</td>
 </tr>
 </table>
@@ -49,7 +49,7 @@ things you can actually use. open a project for its code, setup, and details.
   <td><strong><a href="https://github.com/OnurByte/LiquidGlassForLinux">LiquidGlassForLinux</a></strong><br>turn ordinary Linux app icons into layered, glass-like icons. change their look locally.</td>
 </tr>
 <tr>
-  <td align="center" width="106"><a href="https://github.com/OnurByte/PSYCHOVIM"><img src="assets/terminal.svg" alt="Terminal editor pictogram" width="50"></a></td>
+  <td align="center" width="106"><a href="https://github.com/OnurByte/PSYCHOVIM"><img src="https://raw.githubusercontent.com/OnurByte/PSYCHOVIM/main/icon.svg" alt="PychoVIM symbol" width="50"></a></td>
   <td><strong><a href="https://github.com/OnurByte/PSYCHOVIM">PychoVIM</a></strong><br>a ready-to-use terminal text editor built on Neovim, with extensions, themes and automatic updates.</td>
 </tr>
 </table>
