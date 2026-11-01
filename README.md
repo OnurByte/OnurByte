@@ -86,18 +86,7 @@ member since **2019-06-17** ⁜ ![profile views](https://komarev.com/ghpvc/?user
   </picture>
 </a>
 
-<sub>GitHub data ⁜ refreshed daily ⁜ monochrome, like <a href="https://onur.af">onur.af</a></sub>
-
-<details>
-<summary>sources and updates</summary>
-
-The calendar and activity graph show the last year. Current and longest streaks use the complete contribution history since joining; a day runs in UTC and an unfinished today does not break yesterday’s streak. All-time means all dates returned by GitHub, not private activity the API cannot expose.
-
-The panel is generated from GitHub’s own contribution API, with an update date printed inside it. GitHub’s aggregate contribution total and individual daily squares are kept as supplied; GitHub can report slightly different totals between those fields. The view counter remains the existing Komarev counter. No contribution or traffic values are invented.
-
-[Update workflow](.github/workflows/history.yml) ⁜ [TypeScript renderer](scripts/history.ts)
-
-</details>
+<sub>GitHub data ⁜ <a href=".github/workflows/history.yml">refreshed daily</a> ⁜ monochrome, like <a href="https://onur.af">onur.af</a></sub>
 
 ---
 
