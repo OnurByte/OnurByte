@@ -1,12 +1,12 @@
 # onur
 
-i build software and keep servers alive. my sleep schedule didn't make it.
+i write software, run servers, and take things apart to see how they work.
 
-i build things because they don't exist yet and that bothers me. apple won't give linux liquid glass? fine, i'll take it. if something annoys me twice, it becomes a repo.
+most projects here start with something i want to use, fix, or understand. linux tools, browser extensions, a site, a small script that stopped being small.
 
-the machine should answer to the person running it. i like readable code, local tools, and permissions that are clear before anything changes.
+i care about privacy and having control over the tools i use. i want to know what runs on my machine and be able to change it.
 
-i run nixos. my config is declarative and so are my opinions.
+i build for myself first, then share the code. if it solves something for you too, even better.
 
 ---
 
@@ -16,7 +16,7 @@ things you can actually use. open a project for its code, setup, and details.
 
 <table>
 <tr>
-  <td align="center" width="106"><a href="https://github.com/OnurByte/onur.af"><img src="https://raw.githubusercontent.com/OnurByte/onur.af/main/public/brand/icon.png" alt="Onur mark" width="50"></a></td>
+  <td align="center" width="106"><a href="https://github.com/OnurByte/onur.af"><img src="https://raw.githubusercontent.com/OnurByte/onur.af/main/public/brand/mark-white.svg" alt="Onur mark" width="50"></a></td>
   <td><strong><a href="https://github.com/OnurByte/onur.af">onur.af</a></strong><br>my personal site for projects and writing, with signatures so you can verify what i actually published.</td>
 </tr>
 <tr>
@@ -24,7 +24,7 @@ things you can actually use. open a project for its code, setup, and details.
   <td><strong><a href="https://github.com/OnurByte/LimitlessX">LimitlessX</a></strong><br>browser extension for viewing region-restricted public 𝕏 profiles and posts. no VPN setup.</td>
 </tr>
 <tr>
-  <td align="center" width="106"><a href="https://github.com/OnurByte/ispatla.tr"><img src="https://raw.githubusercontent.com/OnurByte/ispatla.tr/main/public/brand/ispatla-favicon.png" alt="ispatla.tr mark" width="50"></a></td>
+  <td align="center" width="106"><a href="https://github.com/OnurByte/ispatla.tr"><img src="https://raw.githubusercontent.com/OnurByte/ispatla.tr/main/public/brand/mark-white.svg" alt="ispatla.tr mark" width="50"></a></td>
   <td><strong><a href="https://github.com/OnurByte/ispatla.tr">ispatla.tr</a></strong><br>find relevant 𝕏 conversations, see why they fit each account, and write replies in your own voice.</td>
 </tr>
 <tr>
@@ -69,7 +69,7 @@ things you can actually use. open a project for its code, setup, and details.
 
 ## tools
 
-rust · typescript · php · lua · nixos · linux · bash · neovim · docker
+rust · typescript · php · lua · linux · bash · neovim · docker
 
 languages are tools, not personality traits.
 
@@ -91,4 +91,4 @@ member since **2019-06-17**.
 
 issues and PRs are open. bring bugs, cursed ideas, or receipts.
 
-[github.com/OnurByte](https://github.com/OnurByte) · nixos · nvim
+[github.com/OnurByte](https://github.com/OnurByte) · linux · nvim
