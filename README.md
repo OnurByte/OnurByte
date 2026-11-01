@@ -75,10 +75,14 @@ languages are tools, not personality traits.
 
 ---
 
+<p align="right">
+  <img src="https://komarev.com/ghpvc/?username=OnurByte&amp;color=777777&amp;style=flat-square&amp;label=profile%20views" alt="profile views">
+</p>
+
 <a href="https://github.com/OnurByte?tab=overview">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/github-history-dark.svg">
-    <img src="assets/github-history-light.svg" alt="My GitHub history: contributions, active days, current and all-time longest streaks, a contribution calendar and weekly activity." width="860">
+    <img src="assets/github-history-light.svg" alt="On GitHub since 17 June 2019. My GitHub history: contributions, active days, current and all-time longest streaks, a contribution calendar and weekly activity." width="860">
   </picture>
 </a>
 
