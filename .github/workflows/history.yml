@@ -1,0 +1,51 @@
+name: GitHub history
+on:
+  schedule:
+    - cron: '23 3 * * *'
+  workflow_dispatch:
+  push:
+    paths: ['scripts/**', 'tests/**', 'package*.json', 'tsconfig.json', '.github/workflows/history.yml']
+  pull_request:
+    paths: ['scripts/**', 'tests/**', 'package*.json', 'tsconfig.json', '.github/workflows/history.yml']
+permissions:
+  contents: read
+concurrency:
+  group: profile-history-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+      - run: npm ci --ignore-scripts
+      - run: npm run check
+  update:
+    needs: check
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+      - run: npm ci --ignore-scripts
+      - run: npm run update:history
+        env:
+          GH_TOKEN: ${{ github.token }}
+      - name: Commit updated artwork
+        run: |
+          git add assets/github-history-light.svg assets/github-history-dark.svg
+          if git diff --cached --quiet; then exit 0; fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Update GitHub history artwork'
+          git push origin HEAD:main
