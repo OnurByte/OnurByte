@@ -1,12 +1,6 @@
 # onur
 
-i write software, run servers, and take things apart to see how they work.
-
-most projects here start with something i want to use, fix, or understand. linux tools, browser extensions, a site, a small script that stopped being small.
-
-i care about privacy and having control over the tools i use. i want to know what runs on my machine and be able to change it.
-
-i build for myself first, then share the code. if it solves something for you too, even better.
+i build for myself, to my own standards. the code is here.
 
 ---
 
