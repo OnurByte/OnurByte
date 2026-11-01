@@ -40,7 +40,10 @@ export function render(m:Summary,theme:'light'|'dark'):string {
  const fmt=(n:number)=>n.toLocaleString('en-US');
  const metrics=[[fmt(m.total),'contributions',`last ${m.days.length} days`],[fmt(m.active),'active days',`of ${m.days.length} days`],[String(m.current),'current streak','days ⁜ UTC'],[String(m.longest),'longest streak','days ⁜ all-time']];
  let body=`<rect x=".5" y=".5" width="859" height="659" rx="12" fill="${bg}" stroke="${border}"/>`;
- body+=text(28,39,'github history',24,fg,600)+text(28,65,`${m.days[0].date} to ${m.today} ⁜ contributions recorded by GitHub`,13,muted);
+ const joinedLabel=new Date(stamp(m.historyStart)).toLocaleDateString('en-GB',{day:'numeric',month:'long',year:'numeric',timeZone:'UTC'});
+ body+=text(28,30,'on GitHub since',14,muted)+text(28,67,joinedLabel,30,fg,600);
+ body+=text(832,30,'i am. i think. i will.',15,fg,500).replace('<text ','<text text-anchor="end" ');
+ body+=text(832,58,`${m.days[0].date} to ${m.today}`,12,muted).replace('<text ','<text text-anchor="end" ');
  metrics.forEach(([value,label,scope],i)=>{const x=28+i*205;body+=text(x,115,value,32,fg,600)+text(x,142,label,15)+text(x,163,scope,12,muted)});
  body+=line(183)+text(28,214,'contribution calendar',17,fg,600);
  const first=stamp(m.days[0].date),start=first-new Date(first).getUTCDay()*DAY,max=Math.max(1,...m.days.map(d=>d.contributionCount));
@@ -60,5 +63,5 @@ export function render(m:Summary,theme:'light'|'dark'):string {
  body+=text(left,589,m.days[0].date,11,muted)+text(824,589,m.today,11,muted).replace('<text ','<text text-anchor="end" ');
  body+=text(28,618,m.current?`current run ⁜ ${m.start} to ${m.end}`:'current run ⁜ no active streak',12,muted);
  body+=text(28,642,`all-time streak history from ${m.historyStart} ⁜ updated ${m.today} UTC`,12,muted);
- return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 660" role="img" aria-labelledby="title desc"><title id="title">Onur's GitHub history</title><desc id="desc">${m.total} contributions and ${m.active} active days in this period. Current streak ${m.current} days. All-time longest streak ${m.longest} days. Calendar and weekly contribution activity.</desc><g font-family="Helvetica Neue, Helvetica, Arial, sans-serif">${body}</g></svg>\n`;
+ return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 660" role="img" aria-labelledby="title desc"><title id="title">Onur's GitHub history</title><desc id="desc">On GitHub since ${joinedLabel}. ${m.total} contributions and ${m.active} active days in this period. Current streak ${m.current} days. All-time longest streak ${m.longest} days. Calendar and weekly contribution activity.</desc><g font-family="Helvetica Neue, Helvetica, Arial, sans-serif">${body}</g></svg>\n`;
 }

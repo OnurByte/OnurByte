@@ -26,3 +26,8 @@ test('both theme panels contain real calendar, activity, full-history streak and
 });
 
 test('GitHub aggregate and daily counts retain their separate source values',()=>{const ds=[day('2026-11-01',3)];const m=summarize(ds,ds,'2026-11-01',5);assert.equal(m.total,5);assert.equal(m.dailyTotal,3);assert.throws(()=>summarize(ds,ds,'2026-11-01',NaN));});
+
+test('membership date is prominent and separate from the recent calendar window',()=>{
+ const m=summarize([day('2026-11-01',1)],[day('2019-06-17',0),day('2026-11-01',1)],'2026-11-01');
+ for(const theme of ['light','dark'] as const){const svg=render(m,theme);assert.match(svg,/on GitHub since/);assert.match(svg,/>17 June 2019<\/text>/);assert.match(svg,/font-size="30"[^>]+>17 June 2019/);}
+});
