@@ -71,7 +71,7 @@ desktop tools, browser extensions, web apps, and integrations. source code and s
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/technologies-dark.svg">
-  <img src="assets/technologies-light.svg" alt="Languages, web frameworks, runtime, desktop, database and development tools from onur.af. Small monochrome icons with labels." width="860">
+  <img src="assets/technologies-light.svg" alt="Languages, web frameworks, runtime, desktop, database and development tools from onur.af. Categorized, small monochrome icons with labels." width="760">
 </picture>
 
 ---

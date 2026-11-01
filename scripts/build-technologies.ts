@@ -20,13 +20,18 @@ function mark(filename:string,x:number,y:number,size:number,ink:string){
 mkdirSync('assets/links',{recursive:true});
 for(const theme of ['light','dark'] as const){
  const dark=theme==='dark',ink=dark?'#ffffff':'#0d0d0d',bg=dark?'#000000':'#ffffff',border=dark?'#404040':'#d5d5d5';
- const columns=11,cell=75,rows=Math.ceil(marks.length/columns),height=rows*48+20;
- let body=`<rect x=".5" y=".5" width="859" height="${height-1}" rx="12" fill="${bg}" stroke="${border}"/>`;
- marks.forEach((m,i)=>{
-  const center=55+(i%columns)*cell,y=10+Math.floor(i/columns)*48;
-  body+=`<g><title>${escape(m.name)}</title>${mark(m.icon,center-10,y,20,ink)}<text x="${center}" y="${y+35}" text-anchor="middle" font-size="${m.name.length>12?10:11}" fill="${ink}">${escape(m.name)}</text></g>`;
+ const height=manifest.groups.length*19+18;
+ let body=`<rect x=".5" y=".5" width="759" height="${height-1}" rx="8" fill="${bg}" stroke="${border}"/>`;
+ manifest.groups.forEach((group,row)=>{
+  const y=9+row*19;let x=112;
+  body+=`<text x="14" y="${y+13}" font-size="10" font-weight="500" fill="${dark?'#b3b3b3':'#555555'}">${escape(group.name.toLowerCase())}</text>`;
+  group.items.forEach(m=>{
+   body+=`<g><title>${escape(group.name+': '+m.name)}</title>${mark(m.icon,x,y+2,14,ink)}<text x="${x+19}" y="${y+13}" font-size="10.5" fill="${ink}">${escape(m.name)}</text></g>`;
+   x+=32+m.name.length*5.8;
+  });
+  if(x>760)throw Error(`Category does not fit: ${group.name}`);
  });
- writeFileSync(`assets/technologies-${theme}.svg`,`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 ${height}" role="img" aria-labelledby="title desc"><title id="title">Technologies I work with</title><desc id="desc">${escape(marks.map(m=>m.name).join(', '))}</desc><g font-family="Helvetica Neue, Helvetica, Arial, sans-serif">${body}</g></svg>\n`);
+ writeFileSync(`assets/technologies-${theme}.svg`,`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 ${height}" role="img" aria-labelledby="title desc"><title id="title">Technologies I work with</title><desc id="desc">${escape(manifest.groups.map(g=>g.name+': '+g.items.map(m=>m.name).join(', ')).join('. '))}</desc><g font-family="Helvetica Neue, Helvetica, Arial, sans-serif">${body}</g></svg>\n`);
  const links=[{id:'onur',label:'onur.af',icon:'onur.svg',width:98},{id:'github',label:'GitHub',icon:'github.svg',width:92},{id:'linux',label:'Linux',icon:'linux.svg',width:82},{id:'neovim',label:'Neovim',icon:'neovim.svg',width:100}];
  for(const link of links){
   const text=link.id==='linux'||link.id==='neovim'?(dark?'#b3b3b3':'#555555'):ink;
