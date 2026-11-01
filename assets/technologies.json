@@ -1,0 +1,210 @@
+{
+  "source": "https://github.com/OnurByte/onur.af/tree/fded4fc018ce721d8e60440d930d6bf5f4ef1351",
+  "groups": [
+    {
+      "name": "Languages",
+      "items": [
+        {
+          "name": "JavaScript",
+          "icon": "javascript.svg",
+          "source": "public/brand/javascript.svg"
+        },
+        {
+          "name": "TypeScript",
+          "icon": "typescript.svg",
+          "source": "public/brand/typescript.svg"
+        },
+        {
+          "name": "Python",
+          "icon": "python.svg",
+          "source": "public/brand/technologies/python.svg"
+        },
+        {
+          "name": "Bash",
+          "icon": "gnubash.svg",
+          "source": "public/brand/technologies/gnubash.svg"
+        },
+        {
+          "name": "Rust",
+          "icon": "rust.svg",
+          "source": "public/brand/rust.svg"
+        },
+        {
+          "name": "Go",
+          "icon": "go.svg",
+          "source": "public/brand/technologies/go.svg"
+        },
+        {
+          "name": "Java",
+          "icon": "openjdk.svg",
+          "source": "public/brand/technologies/openjdk.svg"
+        },
+        {
+          "name": "PHP",
+          "icon": "php.svg",
+          "source": "public/brand/technologies/php.svg"
+        },
+        {
+          "name": "Lua",
+          "icon": "lua.svg",
+          "source": "public/brand/technologies/lua.svg"
+        }
+      ]
+    },
+    {
+      "name": "Web",
+      "items": [
+        {
+          "name": "HTML",
+          "icon": "html5.svg",
+          "source": "public/brand/technologies/html5.svg"
+        },
+        {
+          "name": "CSS",
+          "icon": "css.svg",
+          "source": "public/brand/technologies/css.svg"
+        },
+        {
+          "name": "Astro",
+          "icon": "astro.svg",
+          "source": "public/brand/technologies/astro.svg"
+        },
+        {
+          "name": "Next.js",
+          "icon": "nextdotjs.svg",
+          "source": "public/brand/technologies/nextdotjs.svg"
+        },
+        {
+          "name": "React",
+          "icon": "react.svg",
+          "source": "public/brand/technologies/react.svg"
+        },
+        {
+          "name": "Tailwind CSS",
+          "icon": "tailwindcss.svg",
+          "source": "public/brand/technologies/tailwindcss.svg"
+        },
+        {
+          "name": "shadcn/ui",
+          "icon": "shadcnui.svg",
+          "source": "public/brand/technologies/shadcnui.svg"
+        }
+      ]
+    },
+    {
+      "name": "Tools",
+      "items": [
+        {
+          "name": "Linux",
+          "icon": "linux.svg",
+          "source": "public/brand/technologies/linux.svg"
+        },
+        {
+          "name": "Git",
+          "icon": "git.svg",
+          "source": "public/brand/technologies/git.svg"
+        },
+        {
+          "name": "Docker",
+          "icon": "docker.svg",
+          "source": "https://github.com/simple-icons/simple-icons/blob/develop/icons/docker.svg"
+        }
+      ]
+    },
+    {
+      "name": "IDE",
+      "items": [
+        {
+          "name": "Neovim",
+          "icon": "neovim.svg",
+          "source": "public/brand/technologies/neovim.svg"
+        },
+        {
+          "name": "Zed",
+          "icon": "zedindustries.svg",
+          "source": "public/brand/technologies/zedindustries.svg"
+        },
+        {
+          "name": "JetBrains IDEs",
+          "icon": "jetbrains.svg",
+          "source": "public/brand/technologies/jetbrains.svg"
+        }
+      ]
+    },
+    {
+      "name": "Runtime",
+      "items": [
+        {
+          "name": "Node.js",
+          "icon": "nodedotjs.svg",
+          "source": "public/brand/technologies/nodedotjs.svg"
+        },
+        {
+          "name": "Bun",
+          "icon": "bun.svg",
+          "source": "public/brand/technologies/bun.svg"
+        }
+      ]
+    },
+    {
+      "name": "Desktop",
+      "items": [
+        {
+          "name": "GTK4",
+          "icon": "gtk.svg",
+          "source": "public/brand/technologies/gtk.svg"
+        },
+        {
+          "name": "Libadwaita",
+          "icon": "gnome.svg",
+          "source": "public/brand/technologies/gnome.svg"
+        }
+      ]
+    },
+    {
+      "name": "Database",
+      "items": [
+        {
+          "name": "SQLite",
+          "icon": "sqlite.svg",
+          "source": "public/brand/technologies/sqlite.svg"
+        },
+        {
+          "name": "MySQL",
+          "icon": "mysql.svg",
+          "source": "public/brand/technologies/mysql.svg"
+        },
+        {
+          "name": "PostgreSQL",
+          "icon": "postgresql.svg",
+          "source": "public/brand/technologies/postgresql.svg"
+        },
+        {
+          "name": "Drizzle ORM",
+          "icon": "drizzle.svg",
+          "source": "public/brand/technologies/drizzle.svg"
+        }
+      ]
+    },
+    {
+      "name": "AI",
+      "items": [
+        {
+          "name": "Codex",
+          "icon": "codex.svg",
+          "source": "public/brand/technologies/codex.svg"
+        },
+        {
+          "name": "Claude",
+          "icon": "claude.svg",
+          "source": "public/brand/technologies/claude.svg"
+        },
+        {
+          "name": "MCP",
+          "icon": "modelcontextprotocol.svg",
+          "source": "public/brand/technologies/modelcontextprotocol.svg"
+        }
+      ]
+    }
+  ]
+}

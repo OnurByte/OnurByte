@@ -1,1 +1,16 @@
-{"name":"onur-profile","private":true,"type":"module","scripts":{"typecheck":"tsc --noEmit","test":"node --experimental-strip-types --test tests/*.test.ts","check":"npm run typecheck && npm test","update:history":"node --experimental-strip-types scripts/update-history.ts"},"devDependencies":{"@types/node":"22.19.0","typescript":"5.9.3"}}
+{
+  "name": "onur-profile",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "node --experimental-strip-types --test tests/*.test.ts",
+    "check": "npm run typecheck && npm test",
+    "update:history": "node --experimental-strip-types scripts/update-history.ts",
+    "build:technologies": "node --experimental-strip-types scripts/build-technologies.ts"
+  },
+  "devDependencies": {
+    "@types/node": "22.19.0",
+    "typescript": "5.9.3"
+  }
+}

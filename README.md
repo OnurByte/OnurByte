@@ -10,9 +10,9 @@ i build for myself first, then share the code. if it solves something for you to
 
 ---
 
-## selected projects
+## featured work
 
-things you can actually use. open a project for its code, setup, and details.
+desktop tools, browser extensions, web apps, and integrations. source code and setup live with each project.
 
 <table>
 <tr>
@@ -41,7 +41,7 @@ things you can actually use. open a project for its code, setup, and details.
 </tr>
 </table>
 
-## more projects
+## more work
 
 <table>
 <tr>
@@ -55,7 +55,7 @@ things you can actually use. open a project for its code, setup, and details.
 </table>
 
 <details>
-<summary>older work</summary>
+<summary>earlier projects</summary>
 
 - **[Hakikat](https://github.com/OnurByte/Hakikat)** ⁜ quran audio player for Linux.
 - **[AciklamaAI](https://github.com/OnurByte/AciklamaAI)** ⁜ AI-assisted product descriptions.
@@ -67,11 +67,12 @@ things you can actually use. open a project for its code, setup, and details.
 
 </details>
 
-## tools
+## technologies
 
-rust · typescript · php · lua · linux · bash · neovim · docker
-
-languages are tools, not personality traits.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/technologies-dark.svg">
+  <img src="assets/technologies-light.svg" alt="Languages, web frameworks, runtime, desktop, database and development tools from onur.af. Categorized, small monochrome icons with labels." width="760">
+</picture>
 
 ---
 
@@ -86,6 +87,13 @@ languages are tools, not personality traits.
 
 ---
 
-issues and PRs are open. bring bugs, cursed ideas, or receipts.
+## links
 
-[github.com/OnurByte](https://github.com/OnurByte) · linux · nvim
+<p>
+  <a href="https://onur.af"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/links/onur-dark.svg"><img src="assets/links/onur-light.svg" alt="onur.af" width="98" height="28"></picture></a>
+  <a href="https://github.com/OnurByte"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/links/github-dark.svg"><img src="assets/links/github-light.svg" alt="GitHub" width="92" height="28"></picture></a>
+  <a href="https://www.kernel.org/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/links/linux-dark.svg"><img src="assets/links/linux-light.svg" alt="Linux" width="82" height="28"></picture></a>
+  <a href="https://neovim.io/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/links/neovim-dark.svg"><img src="assets/links/neovim-light.svg" alt="Neovim" width="100" height="28"></picture></a>
+</p>
+
+issues and pull requests are welcome.
