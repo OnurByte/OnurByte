@@ -1,6 +1,6 @@
 import {execFileSync} from 'node:child_process';
 import {mkdirSync,writeFileSync} from 'node:fs';
-import {summarize,render,type Day} from './history.ts';
+import {summarize,render,parseViews,type Day} from './history.ts';
 type Calendar={totalContributions:number;weeks:{contributionDays:Day[]}[]};
 const fields='contributionCalendar { totalContributions weeks { contributionDays { date contributionCount } } }';
 function query<T>(query:string):T {
@@ -25,10 +25,13 @@ const unique=new Set(all.map(d=>d.date));
 const expected=(Date.parse(today)-Date.parse(joined))/86_400_000+1;
 if(unique.size!==expected||!unique.has(joined)||!unique.has(today))throw Error('Incomplete all-time history; existing artwork retained');
 const model=summarize(recent,all,today,current.contributionsCollection.contributionCalendar.totalContributions);
+const response=await fetch('https://komarev.com/ghpvc/?username=OnurByte&color=777777&style=flat-square&label=profile%20views&abbreviated=false',{signal:AbortSignal.timeout(20_000)});
+if(!response.ok)throw Error('View counter unavailable; existing artwork retained');
+model.profileViews=parseViews(await response.text());
 // GitHub reports the aggregate separately from daily squares; preserve both source values.
 // Render both before writing either. API failures never replace good artwork with placeholders.
 const light=render(model,'light'),dark=render(model,'dark');
 mkdirSync('assets',{recursive:true});
 writeFileSync('assets/github-history-light.svg',light);
 writeFileSync('assets/github-history-dark.svg',dark);
-console.log(`History updated ${today}: ${model.total} yearly contributions, ${model.current}-day current / ${model.longest}-day all-time longest streak; member since ${joined}`);
+console.log(`History updated ${today}: ${model.total} yearly contributions, ${model.current}-day current / ${model.longest}-day all-time longest streak; member since ${joined}; profile views ${model.profileViews}`);
