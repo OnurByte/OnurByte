@@ -86,8 +86,7 @@ desktop tools, browser extensions, web apps, and integrations. source code and s
 <p>
   <a href="https://onur.af"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/links/onur-dark.svg"><img src="assets/links/onur-light.svg" alt="onur.af" width="98" height="28"></picture></a>
   <a href="https://github.com/OnurByte"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/links/github-dark.svg"><img src="assets/links/github-light.svg" alt="GitHub" width="92" height="28"></picture></a>
-  <a href="https://www.kernel.org/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/links/linux-dark.svg"><img src="assets/links/linux-light.svg" alt="Linux" width="82" height="28"></picture></a>
-  <a href="https://neovim.io/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/links/neovim-dark.svg"><img src="assets/links/neovim-light.svg" alt="Neovim" width="100" height="28"></picture></a>
+  <a href="https://x.com/onurstirner"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/links/x-dark.svg"><img src="assets/links/x-light.svg" alt="𝕏 ⁜ @onurstirner" width="140" height="28"></picture></a>
 </p>
 
 issues and pull requests are welcome.
