@@ -79,6 +79,8 @@ languages are tools, not personality traits.
 
 member since **2019-06-17**.
 
+![Profile views](https://komarev.com/ghpvc/?username=OnurByte&color=58a6ff&style=flat&label=views)
+
 ![Contribution calendar](https://ghchart.rshah.org/58a6ff/OnurByte)
 
 ![Contribution activity graph](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=OnurByte&theme=tokyonight)
