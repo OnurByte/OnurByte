@@ -29,7 +29,17 @@ export function summarize(recent:Day[],history:Day[],today:string,reportedTotal?
  for(const d of days){const t=stamp(d.date),sunday=t-new Date(t).getUTCDay()*DAY;weekly.set(sunday,(weekly.get(sunday)||0)+d.contributionCount);}
  const dailyTotal=days.reduce((n,d)=>n+d.contributionCount,0);
  if(reportedTotal!==undefined&&(!Number.isSafeInteger(reportedTotal)||reportedTotal<0))throw Error('Invalid reported total');
- return {today,days,total:reportedTotal??dailyTotal,dailyTotal,active:days.filter(d=>d.contributionCount>0).length,weekly:[...weekly.values()],historyStart:all[0].date,...streaks(all,today)};
+ return {today,days,profileViews:null as number|null,total:reportedTotal??dailyTotal,dailyTotal,active:days.filter(d=>d.contributionCount>0).length,weekly:[...weekly.values()],historyStart:all[0].date,...streaks(all,today)};
+}
+export function parseViews(svg:string):number {
+ if(svg.length>65_536||!/<svg\b/.test(svg))throw Error('Invalid counter response');
+ const texts=[...svg.matchAll(/<text\b[^>]*>([^<]*)<\/text>/g)].map(m=>m[1].trim());
+ if(!texts.some(t=>/^profile views$/i.test(t)))throw Error('Counter label missing');
+ const values=texts.filter(t=>!/^profile views$/i.test(t));
+ if(!values.length||values.some(t=>!/^(?:0|[1-9]\d*|[1-9]\d{0,2}(?:,\d{3})+)$/.test(t)))throw Error('Counter count unavailable');
+ const counts=values.map(t=>Number(t.replaceAll(',','')));
+ if(counts.some(n=>!Number.isSafeInteger(n))||new Set(counts).size!==1)throw Error('Invalid counter count');
+ return counts[0];
 }
 export type Summary=ReturnType<typeof summarize>;
 export function render(m:Summary,theme:'light'|'dark'):string {
@@ -38,13 +48,14 @@ export function render(m:Summary,theme:'light'|'dark'):string {
  const text=(x:number,y:number,s:string,size=14,color=fg,weight=400)=>`<text x="${x}" y="${y}" font-size="${size}" fill="${color}" font-weight="${weight}">${s}</text>`;
  const line=(y:number)=>`<path d="M28 ${y}H832" stroke="${border}"/>`;
  const fmt=(n:number)=>n.toLocaleString('en-US');
- const metrics=[[fmt(m.total),'contributions',`last ${m.days.length} days`],[fmt(m.active),'active days',`of ${m.days.length} days`],[String(m.current),'current streak','days ⁜ UTC'],[String(m.longest),'longest streak','days ⁜ all-time']];
+ if(m.profileViews!==null&&(!Number.isSafeInteger(m.profileViews)||m.profileViews<0))throw Error('Invalid view count');
+ const metrics=[[fmt(m.total),'contributions',`last ${m.days.length} days`],[m.profileViews===null?'—':fmt(m.profileViews),'profile views','daily snapshot'],[fmt(m.active),'active days',`of ${m.days.length} days`],[String(m.current),'current streak','days ⁜ UTC'],[String(m.longest),'longest streak','days ⁜ all-time']];
  let body=`<rect x=".5" y=".5" width="859" height="659" rx="12" fill="${bg}" stroke="${border}"/>`;
  const joinedLabel=new Date(stamp(m.historyStart)).toLocaleDateString('en-GB',{day:'numeric',month:'long',year:'numeric',timeZone:'UTC'});
  body+=text(28,30,'on GitHub since',14,muted)+text(28,67,joinedLabel,30,fg,600);
  body+=text(832,30,'i am. i think. i will.',15,fg,500).replace('<text ','<text text-anchor="end" ');
  body+=text(832,58,`${m.days[0].date} to ${m.today}`,12,muted).replace('<text ','<text text-anchor="end" ');
- metrics.forEach(([value,label,scope],i)=>{const x=28+i*205;body+=text(x,115,value,32,fg,600)+text(x,142,label,15)+text(x,163,scope,12,muted)});
+ metrics.forEach(([value,label,scope],i)=>{const x=28+i*164;body+=text(x,115,value,32,fg,600)+text(x,142,label,15)+text(x,163,scope,12,muted)});
  body+=line(183)+text(28,214,'contribution calendar',17,fg,600);
  const first=stamp(m.days[0].date),start=first-new Date(first).getUTCDay()*DAY,max=Math.max(1,...m.days.map(d=>d.contributionCount));
  let month=-1;
@@ -63,5 +74,5 @@ export function render(m:Summary,theme:'light'|'dark'):string {
  body+=text(left,589,m.days[0].date,11,muted)+text(824,589,m.today,11,muted).replace('<text ','<text text-anchor="end" ');
  body+=text(28,618,m.current?`current run ⁜ ${m.start} to ${m.end}`:'current run ⁜ no active streak',12,muted);
  body+=text(28,642,`all-time streak history from ${m.historyStart} ⁜ updated ${m.today} UTC`,12,muted);
- return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 660" role="img" aria-labelledby="title desc"><title id="title">Onur's GitHub history</title><desc id="desc">On GitHub since ${joinedLabel}. ${m.total} contributions and ${m.active} active days in this period. Current streak ${m.current} days. All-time longest streak ${m.longest} days. Calendar and weekly contribution activity.</desc><g font-family="Helvetica Neue, Helvetica, Arial, sans-serif">${body}</g></svg>\n`;
+ return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 660" role="img" aria-labelledby="title desc"><title id="title">Onur's GitHub history</title><desc id="desc">On GitHub since ${joinedLabel}. ${m.total} contributions and ${m.active} active days in this period. Profile view snapshot: ${m.profileViews===null?'unavailable':m.profileViews}. Current streak ${m.current} days. All-time longest streak ${m.longest} days. Calendar and weekly contribution activity.</desc><g font-family="Helvetica Neue, Helvetica, Arial, sans-serif">${body}</g></svg>\n`;
 }

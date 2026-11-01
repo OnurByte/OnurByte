@@ -1,6 +1,6 @@
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
-import {streaks, summarize, render, type Day} from '../scripts/history.ts';
+import {streaks, summarize, render, parseViews, type Day} from '../scripts/history.ts';
 const day=(date:string,count:number):Day=>({date,contributionCount:count});
 test('current streak tolerates an unfinished UTC day, but not an inactive yesterday',()=>{
  const days=[day('2026-10-28',1),day('2026-10-29',0),day('2026-10-30',2),day('2026-10-31',3),day('2026-11-01',0)];
@@ -30,4 +30,18 @@ test('GitHub aggregate and daily counts retain their separate source values',()=
 test('membership date is prominent and separate from the recent calendar window',()=>{
  const m=summarize([day('2026-11-01',1)],[day('2019-06-17',0),day('2026-11-01',1)],'2026-11-01');
  for(const theme of ['light','dark'] as const){const svg=render(m,theme);assert.match(svg,/on GitHub since/);assert.match(svg,/>17 June 2019<\/text>/);assert.match(svg,/font-size="30"[^>]+>17 June 2019/);}
+});
+
+
+test('reads the existing counter without inventing missing or abbreviated counts',()=>{
+ const badge=(a:string,b=a)=>`<svg><text>profile views</text><text>${a}</text><text>${b}</text></svg>`;
+ assert.equal(parseViews(badge('16')),16);
+ assert.equal(parseViews(badge('1,234')),1234);
+ assert.equal(parseViews(badge('0')),0);
+ for(const svg of [badge('unavailable'),badge('12.3K'),badge('-1'),badge('16','17'),'<svg><text>16</text></svg>'])assert.throws(()=>parseViews(svg));
+});
+test('the view count is a native metric inside both cards, never an external badge',()=>{
+ const ds=[day('2026-11-01',1)];const m={...summarize(ds,ds,'2026-11-01'),profileViews:1234};
+ for(const theme of ['light','dark'] as const){const svg=render(m,theme);assert.match(svg,/>1,234<\/text>/);assert.match(svg,/>profile views<\/text>/);assert.match(svg,/daily snapshot/);assert.doesNotMatch(svg,/<image|komarev/);}
+ assert.throws(()=>render({...m,profileViews:NaN},'dark'));
 });
