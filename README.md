@@ -28,7 +28,7 @@ things you can actually use. open a project for its code, setup, and details.
   <td><strong><a href="https://github.com/OnurByte/ispatla.tr">ispatla.tr</a></strong><br>find relevant 𝕏 conversations, see why they fit each account, and write replies in your own voice.</td>
 </tr>
 <tr>
-  <td align="center" width="106"><a href="https://github.com/OnurByte/OmaMonero"><img src="https://raw.githubusercontent.com/OnurByte/OmaMonero/main/qml/v0_3_6/assets/OmaMonero-logo.svg" alt="OmaMonero mark" width="52"></a></td>
+  <td align="center" width="106"><a href="https://github.com/OnurByte/OmaMonero"><img src="https://raw.githubusercontent.com/OnurByte/OmaMonero/main/qml/v0_4_1/assets/OmaMonero-logo.svg" alt="OmaMonero mark" width="52"></a></td>
   <td><strong><a href="https://github.com/OnurByte/OmaMonero">OmaMonero</a></strong><br>track Monero prices and node health in Omarchy's top bar, and create receive QR codes. no wallet keys.</td>
 </tr>
 <tr>
