@@ -77,8 +77,8 @@ languages are tools, not personality traits.
 
 <a href="https://github.com/OnurByte?tab=overview">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/github-history-dark.svg">
-    <img src="assets/github-history-light.svg" alt="On GitHub since 17 June 2019. My GitHub history: contributions, profile views, active days, current and all-time longest streaks, a contribution calendar and weekly activity." width="860">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/github-history-dark.svg?v=views-inside-1">
+    <img src="assets/github-history-light.svg?v=views-inside-1" alt="On GitHub since 17 June 2019. My GitHub history: contributions, profile views, active days, current and all-time longest streaks, a contribution calendar and weekly activity." width="860">
   </picture>
   <!-- Official pixel mode keeps the same view counter active; its visible value is rendered inside the card. -->
   <img src="https://komarev.com/ghpvc/?username=OnurByte&amp;style=pixel" alt="" width="1" height="1">
