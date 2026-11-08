@@ -17,15 +17,15 @@
 </tr>
 <tr>
   <td align="center" width="72"><a href="https://github.com/OnurByte/Lumen"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/projects/lumen-dark.svg"><img src="assets/projects/lumen-light.svg" alt="Lumen icon" width="40" height="40"></picture></a></td>
-  <td><strong><a href="https://github.com/OnurByte/Lumen">Lumen</a></strong><br>Two AI hosts debate live. Your viewers join in. Works with TikTok, Kwai and Likee.<br><a href="https://github.com/OnurByte/Lumen/releases/latest">Download</a></td>
+  <td><strong><a href="https://github.com/OnurByte/Lumen">Lumen</a></strong><br>Two AI hosts debate live. Your viewers join in. Works with TikTok, Kwai and Likee.<br><a href="https://github.com/OnurByte/Lumen#install">Install</a></td>
 </tr>
 <tr>
   <td align="center" width="72"><a href="https://github.com/OnurByte/Tehom"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/projects/tehom-dark.svg"><img src="assets/projects/tehom-light.svg" alt="Tehom icon" width="40" height="40"></picture></a></td>
-  <td><strong><a href="https://github.com/OnurByte/Tehom">Tehom</a></strong><br>Paste a link. Get clips as MP4 files. Under development.<br><a href="https://github.com/OnurByte/Tehom/releases/latest">Download</a></td>
+  <td><strong><a href="https://github.com/OnurByte/Tehom">Tehom</a></strong><br>Paste a link. Get clips as MP4 files. Under development.<br><a href="https://github.com/OnurByte/Tehom#install">Install</a></td>
 </tr>
 <tr>
   <td align="center" width="72"><a href="https://github.com/OnurByte/LimitlessX"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/projects/limitlessx-dark.svg"><img src="assets/projects/limitlessx-light.svg" alt="LimitlessX icon" width="40" height="40"></picture></a></td>
-  <td><strong><a href="https://github.com/OnurByte/LimitlessX">LimitlessX</a></strong><br>See public 𝕏 profiles and posts blocked in your region. No VPN.<br><a href="https://github.com/OnurByte/LimitlessX/releases/latest">Install</a></td>
+  <td><strong><a href="https://github.com/OnurByte/LimitlessX">LimitlessX</a></strong><br>See public 𝕏 profiles and posts blocked in your region. No VPN.<br><a href="https://github.com/OnurByte/LimitlessX#download">Install</a></td>
 </tr>
 <tr>
   <td align="center" width="72"><a href="https://github.com/OnurByte/ispatla.tr"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/projects/ispatla-dark.svg"><img src="assets/projects/ispatla-light.svg" alt="ispatla.tr icon" width="40" height="40"></picture></a></td>
