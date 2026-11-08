@@ -16,6 +16,10 @@
   <td><strong><a href="https://github.com/OnurByte/Vexen">Vexen</a></strong><br>Your AI agent forgot what failed. Vexen didn't.<br><a href="https://github.com/OnurByte/Vexen#install"><img src="https://img.shields.io/npm/dt/%40onurbyte/vexen?style=flat-square&amp;label=npm%20downloads&amp;labelColor=262626&amp;color=78a9ff" alt="Vexen npm downloads" height="24"></a></td>
 </tr>
 <tr>
+  <td align="center" width="72"><a href="https://github.com/OnurByte/Lumen"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/projects/lumen-dark.svg"><img src="assets/projects/lumen-light.svg" alt="Lumen icon" width="40" height="40"></picture></a></td>
+  <td><strong><a href="https://github.com/OnurByte/Lumen">Lumen</a></strong><br>Two AI hosts debate live. Your viewers join in. Works with TikTok, Kwai and Likee.<br><a href="https://github.com/OnurByte/Lumen/releases/latest">Download</a></td>
+</tr>
+<tr>
   <td align="center" width="72"><a href="https://github.com/OnurByte/Tehom"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/projects/tehom-dark.svg"><img src="assets/projects/tehom-light.svg" alt="Tehom icon" width="40" height="40"></picture></a></td>
   <td><strong><a href="https://github.com/OnurByte/Tehom">Tehom</a></strong><br>Paste a link. Get clips as MP4 files. Under development.<br><a href="https://github.com/OnurByte/Tehom/releases/latest">Download</a></td>
 </tr>
@@ -84,6 +88,7 @@
   <a href="https://portfolio-seven-plum-73.vercel.app/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/links/onur-dark.svg"><img src="assets/links/onur-light.svg" alt="Onur" width="72" height="28"></picture></a>
   <a href="https://github.com/OnurByte"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/links/github-dark.svg"><img src="assets/links/github-light.svg" alt="GitHub" width="92" height="28"></picture></a>
   <a href="https://x.com/onurstirner"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/links/x-dark.svg"><img src="assets/links/x-light.svg" alt="𝕏 ⁜ @onurstirner" width="140" height="28"></picture></a>
+  <a href="https://x.com/OnurBinary"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/links/x-binary-dark.svg"><img src="assets/links/x-binary-light.svg" alt="𝕏 ⁜ @onurbinary" width="136" height="28"></picture></a>
 </p>
 
 Issues and pull requests are welcome. ⁜ The creator originates.

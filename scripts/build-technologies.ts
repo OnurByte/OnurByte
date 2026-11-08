@@ -32,11 +32,11 @@ for(const theme of ['light','dark'] as const){
   if(x>760)throw Error(`Category does not fit: ${group.name}`);
  });
  writeFileSync(`assets/technologies-${theme}.svg`,`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 ${height}" role="img" aria-labelledby="title desc"><title id="title">Technologies I work with</title><desc id="desc">${escape(manifest.groups.map(g=>g.name+': '+g.items.map(m=>m.name).join(', ')).join('. '))}</desc><g font-family="Helvetica Neue, Helvetica, Arial, sans-serif">${body}</g></svg>\n`);
- const links=[{id:'onur',label:'Onur',icon:'onur.svg',width:72},{id:'github',label:'GitHub',icon:'github.svg',width:92},{id:'x',label:'@onurstirner',icon:'',width:140}];
+ const links=[{id:'onur',label:'Onur',icon:'onur.svg',width:72},{id:'github',label:'GitHub',icon:'github.svg',width:92},{id:'x',label:'@onurstirner',icon:'',width:140},{id:'x-binary',label:'@onurbinary',icon:'',width:136}];
  for(const link of links){
   const text=ink;
   const symbol=link.icon?mark(link.icon,9,6,16,ink):`<text x="9" y="20" font-family="Arial, sans-serif" font-size="19" fill="${ink}">𝕏</text>`;
   writeFileSync(`assets/links/${link.id}-${theme}.svg`,`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${link.width} 28" role="img" aria-label="${link.label}"><rect x=".5" y=".5" width="${link.width-1}" height="27" rx="6" fill="${bg}" stroke="${border}"/>${symbol}<text x="33" y="18.2" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="${text}">${link.label}</text></svg>\n`);
  }
 }
-console.log(`Built ${marks.length} compact technology marks and three footer links in both themes.`);
+console.log(`Built ${marks.length} compact technology marks and four footer links in both themes.`);
