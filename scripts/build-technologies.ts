@@ -32,7 +32,7 @@ for(const theme of ['light','dark'] as const){
   if(x>760)throw Error(`Category does not fit: ${group.name}`);
  });
  writeFileSync(`assets/technologies-${theme}.svg`,`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 ${height}" role="img" aria-labelledby="title desc"><title id="title">Technologies I work with</title><desc id="desc">${escape(manifest.groups.map(g=>g.name+': '+g.items.map(m=>m.name).join(', ')).join('. '))}</desc><g font-family="Helvetica Neue, Helvetica, Arial, sans-serif">${body}</g></svg>\n`);
- const links=[{id:'onur',label:'onur.af',icon:'onur.svg',width:98},{id:'github',label:'GitHub',icon:'github.svg',width:92},{id:'x',label:'@onurstirner',icon:'',width:140}];
+ const links=[{id:'onur',label:'Onur',icon:'onur.svg',width:72},{id:'github',label:'GitHub',icon:'github.svg',width:92},{id:'x',label:'@onurstirner',icon:'',width:140}];
  for(const link of links){
   const text=ink;
   const symbol=link.icon?mark(link.icon,9,6,16,ink):`<text x="9" y="20" font-family="Arial, sans-serif" font-size="19" fill="${ink}">𝕏</text>`;

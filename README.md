@@ -1,67 +1,70 @@
-# ⁜ Onur
+<p align="center"><img src="assets/portrait.webp" alt="Marble portrait" width="160"></p>
 
-i build for myself, to my own standards. the code is here.
+<h1 align="center">⁜ Onur</h1>
 
----
+<p align="center"><strong>I am. I think. I will.</strong></p>
 
-## featured work
+<p align="center">I build for myself, to my own standards. The code is here.</p>
 
-desktop tools, browser extensions, web apps, and integrations. source code and setup live with each project.
-
-<table>
-<tr>
-  <td align="center" width="106"><a href="https://github.com/OnurByte/onur.af"><img src="https://raw.githubusercontent.com/OnurByte/onur.af/main/public/brand/mark-white.svg" alt="Onur mark" width="50"></a></td>
-  <td><strong><a href="https://github.com/OnurByte/onur.af">onur.af</a></strong><br>my personal site for projects and writing, with signatures so you can verify what i actually published.</td>
-</tr>
-<tr>
-  <td align="center" width="106"><a href="https://github.com/OnurByte/LimitlessX"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/OnurByte/LimitlessX/main/docs/brand/mark-dark.svg"><img src="https://raw.githubusercontent.com/OnurByte/LimitlessX/main/docs/brand/mark-light.svg" alt="LimitlessX mark" width="54"></picture></a></td>
-  <td><strong><a href="https://github.com/OnurByte/LimitlessX">LimitlessX</a></strong><br>browser extension for viewing region-restricted public 𝕏 profiles and posts. no VPN setup.</td>
-</tr>
-<tr>
-  <td align="center" width="106"><a href="https://github.com/OnurByte/ispatla.tr"><img src="https://raw.githubusercontent.com/OnurByte/ispatla.tr/main/public/brand/mark-white.svg" alt="ispatla.tr mark" width="50"></a></td>
-  <td><strong><a href="https://github.com/OnurByte/ispatla.tr">ispatla.tr</a></strong><br>find relevant 𝕏 conversations, see why they fit each account, and write replies in your own voice.</td>
-</tr>
-<tr>
-  <td align="center" width="106"><a href="https://github.com/OnurByte/OmaMonero"><img src="https://raw.githubusercontent.com/OnurByte/OmaMonero/main/docs/brand/original-logo.svg" alt="OmaMonero mark" width="52"></a></td>
-  <td><strong><a href="https://github.com/OnurByte/OmaMonero">OmaMonero</a></strong><br>track Monero prices and node health in Omarchy's top bar, and create receive QR codes. no wallet keys.</td>
-</tr>
-<tr>
-  <td align="center" width="106"><a href="https://github.com/OnurByte/OmaLecoo"><img src="https://raw.githubusercontent.com/OnurByte/OmaLecoo/main/icon.svg" alt="OmaLecoo mark" width="52"></a></td>
-  <td><strong><a href="https://github.com/OnurByte/OmaLecoo">OmaLecoo</a></strong><br>change a Lecoo GK301 keyboard's RGB lighting from the Omarchy Linux bar. effects, macros, offline controls.</td>
-</tr>
-<tr>
-  <td align="center" width="106"><a href="https://github.com/OnurByte/TurkishBankMCP"><img src="https://raw.githubusercontent.com/OnurByte/TurkishBankMCP/main/icon.svg" alt="TurkishBankMCP symbol" width="50"></a></td>
-  <td><strong><a href="https://github.com/OnurByte/TurkishBankMCP">TurkishBankMCP</a></strong><br>lets AI tools read Garanti BBVA account and transaction data with approved API access. no transfers or payments.</td>
-</tr>
-</table>
-
-## more work
+## Work
 
 <table>
 <tr>
-  <td align="center" width="106"><a href="https://github.com/OnurByte/LiquidGlassForLinux"><img src="https://raw.githubusercontent.com/OnurByte/LiquidGlassForLinux/main/assets/liquid-glass-icon.svg" alt="Liquid Glass layered cube" width="52"></a></td>
-  <td><strong><a href="https://github.com/OnurByte/LiquidGlassForLinux">LiquidGlassForLinux</a></strong><br>turn ordinary Linux app icons into layered, glass-like icons. change their look locally.</td>
+  <td align="center" width="72"><a href="https://github.com/OnurByte/onur.af"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/projects/onur-af-dark.svg"><img src="assets/projects/onur-af-light.svg" alt="onur.af icon" width="40" height="40"></picture></a></td>
+  <td><strong><a href="https://github.com/OnurByte/onur.af">onur.af</a></strong><br>Where I write. Every Log is signed and timestamped. <a href="https://portfolio-seven-plum-73.vercel.app/">Check it yourself</a>.</td>
 </tr>
 <tr>
-  <td align="center" width="106"><a href="https://github.com/OnurByte/PSYCHOVIM"><img src="https://raw.githubusercontent.com/OnurByte/PSYCHOVIM/main/icon.svg" alt="PychoVIM symbol" width="50"></a></td>
-  <td><strong><a href="https://github.com/OnurByte/PSYCHOVIM">PychoVIM</a></strong><br>a ready-to-use terminal text editor built on Neovim, with extensions, themes and automatic updates.</td>
+  <td align="center" width="72"><a href="https://github.com/OnurByte/OmaMonero"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/projects/omamonero-dark.svg"><img src="assets/projects/omamonero-light.svg" alt="OmaMonero icon" width="40" height="40"></picture></a></td>
+  <td><strong><a href="https://github.com/OnurByte/OmaMonero">OmaMonero</a></strong><br>Monero price, node health and receive QR codes in the Omarchy top bar. <a href="https://plugins.omarchy.org/plugin.html?id=io.github.onurbyte.omamonero">On the Omarchy Marketplace</a>.</td>
+</tr>
+<tr>
+  <td align="center" width="72"><a href="https://github.com/OnurByte/LimitlessX"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/projects/limitlessx-dark.svg"><img src="assets/projects/limitlessx-light.svg" alt="LimitlessX icon" width="40" height="40"></picture></a></td>
+  <td><strong><a href="https://github.com/OnurByte/LimitlessX">LimitlessX</a></strong><br>See public 𝕏 profiles and posts blocked in your region. No VPN.</td>
+</tr>
+<tr>
+  <td align="center" width="72"><a href="https://github.com/OnurByte/ispatla.tr"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/projects/ispatla-dark.svg"><img src="assets/projects/ispatla-light.svg" alt="ispatla.tr icon" width="40" height="40"></picture></a></td>
+  <td><strong><a href="https://github.com/OnurByte/ispatla.tr">ispatla.tr</a></strong><br>Finds 𝕏 conversations worth joining and helps you reply in your own voice.</td>
+</tr>
+<tr>
+  <td align="center" width="72"><a href="https://github.com/OnurByte/Vexen"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/projects/vexen-dark.svg"><img src="assets/projects/vexen-light.svg" alt="Vexen icon" width="40" height="40"></picture></a></td>
+  <td><strong><a href="https://github.com/OnurByte/Vexen">Vexen</a></strong><br>Your AI agent forgot what failed. Vexen didn't.</td>
+</tr>
+<tr>
+  <td align="center" width="72"><a href="https://github.com/OnurByte/Tehom"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/projects/tehom-dark.svg"><img src="assets/projects/tehom-light.svg" alt="Tehom icon" width="40" height="40"></picture></a></td>
+  <td><strong><a href="https://github.com/OnurByte/Tehom">Tehom</a></strong><br>Paste a link. Get clips as MP4 files. Under development.</td>
+</tr>
+<tr>
+  <td align="center" width="72"><a href="https://github.com/OnurByte/OmaLecoo"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/projects/omalecoo-dark.svg"><img src="assets/projects/omalecoo-light.svg" alt="OmaLecoo icon" width="40" height="40"></picture></a></td>
+  <td><strong><a href="https://github.com/OnurByte/OmaLecoo">OmaLecoo</a></strong><br>RGB effects and macros for a Lecoo GK301 keyboard, from the Omarchy top bar.</td>
+</tr>
+<tr>
+  <td align="center" width="72"><a href="https://github.com/OnurByte/TurkishBankMCP"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/projects/turkishbankmcp-dark.svg"><img src="assets/projects/turkishbankmcp-light.svg" alt="TurkishBankMCP icon" width="40" height="40"></picture></a></td>
+  <td><strong><a href="https://github.com/OnurByte/TurkishBankMCP">TurkishBankMCP</a></strong><br>Lets AI tools read Garanti BBVA accounts and transactions. No transfers or payments.</td>
+</tr>
+<tr>
+  <td align="center" width="72"><a href="https://github.com/OnurByte/LiquidGlassForLinux"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/projects/liquidglass-dark.svg"><img src="assets/projects/liquidglass-light.svg" alt="LiquidGlassForLinux icon" width="40" height="40"></picture></a></td>
+  <td><strong><a href="https://github.com/OnurByte/LiquidGlassForLinux">LiquidGlassForLinux</a></strong><br>Turns ordinary Linux app icons into layered glass ones, on your own machine.</td>
+</tr>
+<tr>
+  <td align="center" width="72"><a href="https://github.com/OnurByte/PSYCHOVIM"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/projects/psychovim-dark.svg"><img src="assets/projects/psychovim-light.svg" alt="PychoVIM icon" width="40" height="40"></picture></a></td>
+  <td><strong><a href="https://github.com/OnurByte/PSYCHOVIM">PychoVIM</a></strong><br>An American Psycho-inspired terminal editor built on Neovim.</td>
 </tr>
 </table>
 
 <details>
-<summary>earlier projects</summary>
+<summary>Earlier projects</summary>
 
-- **[Hakikat](https://github.com/OnurByte/Hakikat)** ⁜ quran audio player for Linux.
+- **[Hakikat](https://github.com/OnurByte/Hakikat)** ⁜ Prayer times and Quran reading for Linux.
 - **[AciklamaAI](https://github.com/OnurByte/AciklamaAI)** ⁜ AI-assisted product descriptions.
-- **[DomainFinder](https://github.com/OnurByte/DomainFinder)** ⁜ checks which domain names are available.
-- **[newsPM](https://github.com/OnurByte/newsPM)** ⁜ news-feed plugin for PocketMine servers.
-- **[PrayerTimes](https://github.com/OnurByte/PrayerTimes)** ⁜ prayer times inside Minecraft Bedrock.
-- **[Twitter-To-Prototurk](https://github.com/OnurByte/Twitter-To-Prototurk)** ⁜ sends tweets to the Prototürk community.
-- **[TalhaCenter](https://github.com/OnurByte/TalhaCenter)** ⁜ school e-commerce project. character development.
+- **[DomainFinder](https://github.com/OnurByte/DomainFinder)** ⁜ Checks which domain names are available.
+- **[newsPM](https://github.com/OnurByte/newsPM)** ⁜ News-feed plugin for PocketMine servers.
+- **[PrayerTimes](https://github.com/OnurByte/PrayerTimes)** ⁜ Prayer times inside Minecraft Bedrock.
+- **[Twitter-To-Prototurk](https://github.com/OnurByte/Twitter-To-Prototurk)** ⁜ Sends tweets to the Prototürk community.
+- **[TalhaCenter](https://github.com/OnurByte/TalhaCenter)** ⁜ School e-commerce project. Character development.
 
 </details>
 
-## technologies
+## Technologies
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/technologies-dark.svg">
@@ -81,12 +84,12 @@ desktop tools, browser extensions, web apps, and integrations. source code and s
 
 ---
 
-## links
+## Links
 
 <p>
-  <a href="https://onur.af"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/links/onur-dark.svg"><img src="assets/links/onur-light.svg" alt="onur.af" width="98" height="28"></picture></a>
+  <a href="https://portfolio-seven-plum-73.vercel.app/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/links/onur-dark.svg"><img src="assets/links/onur-light.svg" alt="Onur" width="72" height="28"></picture></a>
   <a href="https://github.com/OnurByte"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/links/github-dark.svg"><img src="assets/links/github-light.svg" alt="GitHub" width="92" height="28"></picture></a>
   <a href="https://x.com/onurstirner"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/links/x-dark.svg"><img src="assets/links/x-light.svg" alt="𝕏 ⁜ @onurstirner" width="140" height="28"></picture></a>
 </p>
 
-issues and pull requests are welcome.
+Issues and pull requests are welcome. ⁜ The creator originates.
