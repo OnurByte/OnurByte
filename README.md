@@ -8,7 +8,7 @@
 
 <table>
 <tr>
-  <td align="center" width="72"><a href="https://github.com/OnurByte/smugBrain"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/projects/smugbrain-dark.svg"><img src="assets/projects/smugbrain-light.svg" alt="smugBrain icon" width="40" height="40"></picture></a></td>
+  <td align="center" width="72"><a href="https://github.com/OnurByte/smugBrain"><img src="assets/projects/smugbrain.svg" alt="smugBrain icon" width="40" height="40"></a></td>
   <td><strong><a href="https://github.com/OnurByte/smugBrain">smugBrain</a></strong><br>Memory for AI coding agents, in plain Markdown you own. Better than your brain. Objectively.<br><a href="https://github.com/OnurByte/smugBrain#install">Install</a></td>
 </tr>
 <tr>
