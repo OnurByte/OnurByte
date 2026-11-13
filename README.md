@@ -12,6 +12,10 @@
   <td><strong><a href="https://github.com/OnurByte/OmaMonero">OmaMonero</a></strong><br>Monero price, node health and receive QR codes in the Omarchy top bar.<br><a href="https://plugins.omarchy.org/plugin.html?id=io.github.onurbyte.omamonero"><img src="https://raw.githubusercontent.com/OnurByte/OmaMonero/badges/omarchy-marketplace.svg" alt="On Omarchy Marketplace, with install command copies, hearts and views" height="24"></a></td>
 </tr>
 <tr>
+  <td align="center" width="72"><a href="https://github.com/OnurByte/smugBrain"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/projects/smugbrain-dark.svg"><img src="assets/projects/smugbrain-light.svg" alt="smugBrain icon" width="40" height="40"></picture></a></td>
+  <td><strong><a href="https://github.com/OnurByte/smugBrain">smugBrain</a></strong><br>Memory for AI coding agents, in plain Markdown you own. Better than your brain. Objectively.<br><a href="https://github.com/OnurByte/smugBrain#install">Install</a></td>
+</tr>
+<tr>
   <td align="center" width="72"><a href="https://github.com/OnurByte/Vexen"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/projects/vexen-dark.svg"><img src="assets/projects/vexen-light.svg" alt="Vexen icon" width="40" height="40"></picture></a></td>
   <td><strong><a href="https://github.com/OnurByte/Vexen">Vexen</a></strong><br>Your AI agent forgot what failed. Vexen didn't.<br><a href="https://github.com/OnurByte/Vexen#install"><img src="https://img.shields.io/npm/dt/%40onurbyte/vexen?style=flat-square&amp;label=npm%20downloads&amp;labelColor=262626&amp;color=78a9ff" alt="Vexen npm downloads" height="24"></a></td>
 </tr>
