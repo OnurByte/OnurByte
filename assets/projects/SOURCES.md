@@ -1,6 +1,6 @@
 # Project icons
 
-Each icon is the project's own logo from its repository, owner artwork, with its original colors. Only the viewBox is cropped to a square so all icons read the same size. PSYCHOVIM and TurkishBankMCP pin the two inks their source already defines, because `<img>` media queries follow the OS instead of the GitHub theme.
+Each icon is the project's own logo from its repository, owner artwork, with its original colors. Only the viewBox is cropped to a square so all icons read the same size. PSYCHOVIM pins the two inks its source already defines, because `<img>` media queries follow the OS instead of the GitHub theme.
 
 | Icon | Source |
 | --- | --- |
@@ -13,5 +13,4 @@ Each icon is the project's own logo from its repository, owner artwork, with its
 | ispatla | [ispatla.tr](https://github.com/OnurByte/ispatla.tr) `public/brand/logo.svg`, `public/brand/mark-white.svg` |
 | onur-af | [onur.af](https://github.com/OnurByte/onur.af) `public/brand/onur.svg`, `public/brand/mark-white.svg` |
 | omalecoo | [OmaLecoo](https://github.com/OnurByte/OmaLecoo) `icon.svg` |
-| turkishbankmcp | [TurkishBankMCP](https://github.com/OnurByte/TurkishBankMCP) `icon.svg` |
 | psychovim | [PSYCHOVIM](https://github.com/OnurByte/PSYCHOVIM) `icon.svg` |

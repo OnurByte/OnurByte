@@ -8,24 +8,24 @@
 
 <table>
 <tr>
-  <td align="center" width="72"><a href="https://github.com/OnurByte/OmaMonero"><img src="assets/projects/omamonero.svg" alt="OmaMonero icon" width="40" height="40"></a></td>
-  <td><strong><a href="https://github.com/OnurByte/OmaMonero">OmaMonero</a></strong><br>Monero price, node health and receive QR codes in the Omarchy top bar.<br><a href="https://plugins.omarchy.org/plugin.html?id=io.github.onurbyte.omamonero"><img src="https://raw.githubusercontent.com/OnurByte/OmaMonero/badges/omarchy-marketplace.svg" alt="On Omarchy Marketplace, with install command copies, hearts and views" height="24"></a></td>
-</tr>
-<tr>
   <td align="center" width="72"><a href="https://github.com/OnurByte/smugBrain"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/projects/smugbrain-dark.svg"><img src="assets/projects/smugbrain-light.svg" alt="smugBrain icon" width="40" height="40"></picture></a></td>
   <td><strong><a href="https://github.com/OnurByte/smugBrain">smugBrain</a></strong><br>Memory for AI coding agents, in plain Markdown you own. Better than your brain. Objectively.<br><a href="https://github.com/OnurByte/smugBrain#install">Install</a></td>
+</tr>
+<tr>
+  <td align="center" width="72"><a href="https://github.com/OnurByte/OmaMonero"><img src="assets/projects/omamonero.svg" alt="OmaMonero icon" width="40" height="40"></a></td>
+  <td><strong><a href="https://github.com/OnurByte/OmaMonero">OmaMonero</a></strong><br>Monero price, node health and receive QR codes in the Omarchy top bar.<br><a href="https://plugins.omarchy.org/plugin.html?id=io.github.onurbyte.omamonero"><img src="https://raw.githubusercontent.com/OnurByte/OmaMonero/badges/omarchy-marketplace.svg" alt="On Omarchy Marketplace, with install command copies, hearts and views" height="24"></a></td>
 </tr>
 <tr>
   <td align="center" width="72"><a href="https://github.com/OnurByte/Vexen"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/projects/vexen-dark.svg"><img src="assets/projects/vexen-light.svg" alt="Vexen icon" width="40" height="40"></picture></a></td>
   <td><strong><a href="https://github.com/OnurByte/Vexen">Vexen</a></strong><br>Your AI agent forgot what failed. Vexen didn't.<br><a href="https://github.com/OnurByte/Vexen#install"><img src="https://img.shields.io/npm/dt/%40onurbyte/vexen?style=flat-square&amp;label=npm%20downloads&amp;labelColor=262626&amp;color=78a9ff" alt="Vexen npm downloads" height="24"></a></td>
 </tr>
 <tr>
-  <td align="center" width="72"><a href="https://github.com/OnurByte/Lumen"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/projects/lumen-dark.svg"><img src="assets/projects/lumen-light.svg" alt="Lumen icon" width="40" height="40"></picture></a></td>
-  <td><strong><a href="https://github.com/OnurByte/Lumen">Lumen</a></strong><br>Two AI hosts debate live. Your viewers join in. Works with TikTok, Kwai and Likee.<br><a href="https://github.com/OnurByte/Lumen#install">Install</a></td>
-</tr>
-<tr>
   <td align="center" width="72"><a href="https://github.com/OnurByte/Tehom"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/projects/tehom-dark.svg"><img src="assets/projects/tehom-light.svg" alt="Tehom icon" width="40" height="40"></picture></a></td>
   <td><strong><a href="https://github.com/OnurByte/Tehom">Tehom</a></strong><br>Paste a link. Get clips as MP4 files. Under development.<br><a href="https://github.com/OnurByte/Tehom#install">Install</a></td>
+</tr>
+<tr>
+  <td align="center" width="72"><a href="https://github.com/OnurByte/onur.af"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/projects/onur-af-dark.svg"><img src="assets/projects/onur-af-light.svg" alt="onur.af icon" width="40" height="40"></picture></a></td>
+  <td><strong><a href="https://github.com/OnurByte/onur.af">onur.af</a></strong><br>Where I write. Every Log is signed and timestamped.<br><a href="https://portfolio-seven-plum-73.vercel.app/">Check it yourself</a></td>
 </tr>
 <tr>
   <td align="center" width="72"><a href="https://github.com/OnurByte/LimitlessX"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/projects/limitlessx-dark.svg"><img src="assets/projects/limitlessx-light.svg" alt="LimitlessX icon" width="40" height="40"></picture></a></td>
@@ -36,16 +36,12 @@
   <td><strong><a href="https://github.com/OnurByte/ispatla.tr">ispatla.tr</a></strong><br>Finds 𝕏 conversations worth joining and helps you reply in your own voice.<br><a href="https://ispatla.tr">Open</a></td>
 </tr>
 <tr>
-  <td align="center" width="72"><a href="https://github.com/OnurByte/onur.af"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/projects/onur-af-dark.svg"><img src="assets/projects/onur-af-light.svg" alt="onur.af icon" width="40" height="40"></picture></a></td>
-  <td><strong><a href="https://github.com/OnurByte/onur.af">onur.af</a></strong><br>Where I write. Every Log is signed and timestamped.<br><a href="https://portfolio-seven-plum-73.vercel.app/">Check it yourself</a></td>
+  <td align="center" width="72"><a href="https://github.com/OnurByte/Lumen"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/projects/lumen-dark.svg"><img src="assets/projects/lumen-light.svg" alt="Lumen icon" width="40" height="40"></picture></a></td>
+  <td><strong><a href="https://github.com/OnurByte/Lumen">Lumen</a></strong><br>Two AI hosts debate live. Your viewers join in. Works with TikTok, Kwai and Likee.<br><a href="https://github.com/OnurByte/Lumen#install">Install</a></td>
 </tr>
 <tr>
   <td align="center" width="72"><a href="https://github.com/OnurByte/OmaLecoo"><img src="assets/projects/omalecoo.svg" alt="OmaLecoo icon" width="40" height="40"></a></td>
   <td><strong><a href="https://github.com/OnurByte/OmaLecoo">OmaLecoo</a></strong><br>RGB effects and macros for a Lecoo GK301 keyboard, from the Omarchy top bar.<br><a href="https://github.com/OnurByte/OmaLecoo#install">Install</a></td>
-</tr>
-<tr>
-  <td align="center" width="72"><a href="https://github.com/OnurByte/TurkishBankMCP"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/projects/turkishbankmcp-dark.svg"><img src="assets/projects/turkishbankmcp-light.svg" alt="TurkishBankMCP icon" width="40" height="40"></picture></a></td>
-  <td><strong><a href="https://github.com/OnurByte/TurkishBankMCP">TurkishBankMCP</a></strong><br>Lets AI tools read Garanti BBVA accounts and transactions. No transfers or payments.<br><a href="https://github.com/OnurByte/TurkishBankMCP#ne-yapar-ne-yapmaz">What it can and cannot do</a></td>
 </tr>
 <tr>
   <td align="center" width="72"><a href="https://github.com/OnurByte/PSYCHOVIM"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/projects/psychovim-dark.svg"><img src="assets/projects/psychovim-light.svg" alt="PychoVIM icon" width="40" height="40"></picture></a></td>
@@ -56,6 +52,7 @@
 <details>
 <summary>Earlier projects</summary>
 
+- **[TurkishBankMCP](https://github.com/OnurByte/TurkishBankMCP)** ⁜ Lets AI tools read Garanti BBVA accounts and transactions. Retired.
 - **[Hakikat](https://github.com/OnurByte/Hakikat)** ⁜ Prayer times and Quran reading for Linux.
 - **[AciklamaAI](https://github.com/OnurByte/AciklamaAI)** ⁜ AI-assisted product descriptions.
 - **[DomainFinder](https://github.com/OnurByte/DomainFinder)** ⁜ Checks which domain names are available.
