@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-label="EditsMaker">
+  <rect width="96" height="96" rx="20" fill="#0B0B0C"/>
+  <defs>
+    <clipPath id="l"><polygon points="0,0 56,0 44,96 0,96"/></clipPath>
+    <clipPath id="r"><polygon points="61,0 96,0 96,96 49,96"/></clipPath>
+  </defs>
+  <g clip-path="url(#l)"><path d="M32,18 H74 V32 H32 V41 H74 V55 H32 V64 H74 V78 H32 A14,14 0 0 1 18,64 V32 A14,14 0 0 1 32,18 Z" fill="#F4F1EA"/></g>
+  <g clip-path="url(#r)"><path d="M32,18 H74 V32 H32 V41 H74 V55 H32 V64 H74 V78 H32 A14,14 0 0 1 18,64 V32 A14,14 0 0 1 32,18 Z" fill="#E5332A" transform="translate(0,7)"/></g>
+</svg>

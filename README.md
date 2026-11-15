@@ -4,6 +4,22 @@
 
 <p align="center">I build for myself, to my own standards. The code is here.</p>
 
+## Start here
+
+Give your AI coding agent a memory it can't lose:
+
+```sh
+curl -fsSL https://raw.githubusercontent.com/OnurByte/smugbrain/main/install.sh | sh
+```
+
+Turn a YouTube link into TikTok, Reels and Shorts edits:
+
+```sh
+curl -fsSL https://raw.githubusercontent.com/OnurByte/EditsMaker/main/install.sh | sh
+```
+
+macOS and Linux. Windows and other ways to install are in each project's README.
+
 ## Work
 
 <table>
@@ -14,6 +30,10 @@
 <tr>
   <td align="center" width="72"><a href="https://github.com/OnurByte/OmaMonero"><img src="assets/projects/omamonero.svg" alt="OmaMonero icon" width="40" height="40"></a></td>
   <td><strong><a href="https://github.com/OnurByte/OmaMonero">OmaMonero</a></strong><br>Monero price, node health and receive QR codes in the Omarchy top bar.<br><a href="https://plugins.omarchy.org/plugin.html?id=io.github.onurbyte.omamonero"><img src="https://raw.githubusercontent.com/OnurByte/OmaMonero/badges/omarchy-marketplace.svg" alt="On Omarchy Marketplace, with install command copies, hearts and views" height="24"></a></td>
+</tr>
+<tr>
+  <td align="center" width="72"><a href="https://github.com/OnurByte/EditsMaker"><img src="assets/projects/editsmaker.svg" alt="EditsMaker icon" width="40" height="40"></a></td>
+  <td><strong><a href="https://github.com/OnurByte/EditsMaker">EditsMaker</a></strong><br>Link in. Edits out. TikTok, Reels and Shorts edits from any YouTube link, channel or topic.<br><a href="https://github.com/OnurByte/EditsMaker#install">Install</a></td>
 </tr>
 <tr>
   <td align="center" width="72"><a href="https://github.com/OnurByte/Vexen"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/projects/vexen-dark.svg"><img src="assets/projects/vexen-light.svg" alt="Vexen icon" width="40" height="40"></picture></a></td>

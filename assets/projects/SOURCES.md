@@ -14,3 +14,4 @@ Each icon is the project's own logo from its repository, owner artwork, with its
 | onur-af | [onur.af](https://github.com/OnurByte/onur.af) `public/brand/onur.svg`, `public/brand/mark-white.svg` |
 | omalecoo | [OmaLecoo](https://github.com/OnurByte/OmaLecoo) `icon.svg` |
 | psychovim | [PSYCHOVIM](https://github.com/OnurByte/PSYCHOVIM) `icon.svg` |
+| editsmaker | [EditsMaker](https://github.com/OnurByte/EditsMaker) `assets/icon.svg`, already on its own dark tile |
