@@ -4,22 +4,6 @@
 
 <p align="center">I build for myself, to my own standards. The code is here.</p>
 
-## Start here
-
-Give your AI coding agent a memory it can't lose:
-
-```sh
-curl -fsSL https://raw.githubusercontent.com/OnurByte/smugbrain/main/install.sh | sh
-```
-
-Turn a YouTube link into TikTok, Reels and Shorts edits:
-
-```sh
-curl -fsSL https://raw.githubusercontent.com/OnurByte/EditsMaker/main/install.sh | sh
-```
-
-macOS and Linux. Windows and other ways to install are in each project's README.
-
 ## Work
 
 <table>
